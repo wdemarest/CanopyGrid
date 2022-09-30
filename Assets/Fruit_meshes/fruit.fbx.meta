@@ -1,0 +1,1738 @@
+fileFormatVersion: 2
+guid: c4e6c0a8fa455264fb23a0722d5e2e9f
+ModelImporter:
+  serializedVersion: 20200
+  internalIDToNameTable:
+  - first:
+      74: 8133873853573840407
+    second: Fruit_LOD0|Fruit_LOD0|Fruit_LOD0|GlobularPlant_011|Take 001|BaseLayer|Frui
+  - first:
+      74: -54807267729573777
+    second: Fruit_LOD0|Fruit_LOD0|Fruit_LOD0|GlobularPlant_016|Take 001|BaseLayer|Frui
+  - first:
+      74: -5934224868673358202
+    second: Fruit_LOD0|Fruit_LOD0|Fruit_LOD0|GlobularPlant_017|Take 001|BaseLayer|Frui
+  - first:
+      74: 8417327869446246766
+    second: Fruit_LOD0|Fruit_LOD0|Fruit_LOD0|GlobularPlant_018|Take 001|BaseLayer|Frui
+  - first:
+      74: 3965053787992738073
+    second: Fruit_LOD0|Fruit_LOD0|Fruit_LOD0|GlobularPlant_10|Take 001|BaseLayer|Fruit
+  - first:
+      74: 6527101476723501825
+    second: Fruit_LOD0|Fruit_LOD0|Fruit_LOD0|GlobularPlant_1_BigSphere001|Take 001|Bas
+  - first:
+      74: -6597454195221510209
+    second: Fruit_LOD0|Fruit_LOD0|Fruit_LOD0|GlobularPlant_1_BigSphere|Take 001|BaseLa
+  - first:
+      74: 823233428680267850
+    second: Fruit_LOD0|Fruit_LOD0|Fruit_LOD0|GlobularPlant_1_SmallSphere|Take 001|Base
+  - first:
+      74: -8686705074794639111
+    second: Fruit_LOD0|Fruit_LOD0|Fruit_LOD0|GlobularPlant_3_Big001|Take 001|BaseLayer
+  - first:
+      74: -4786492241573962447
+    second: Fruit_LOD0|Fruit_LOD0|Fruit_LOD0|GlobularPlant_3_Big|Take 001|BaseLayer|Fr
+  - first:
+      74: -661209439518178625
+    second: Fruit_LOD0|Fruit_LOD0|Fruit_LOD0|GlobularPlant_3_Mid006|Take 001|BaseLayer
+  - first:
+      74: -2760054080889852975
+    second: Fruit_LOD0|Fruit_LOD0|Fruit_LOD0|GlobularPlant_3_Mid1|Take 001|BaseLayer|F
+  - first:
+      74: 369955402335869237
+    second: Fruit_LOD0|Fruit_LOD0|Fruit_LOD0|GlobularPlant_3_Mid2|Take 001|BaseLayer|F
+  - first:
+      74: 1688316007371398077
+    second: Fruit_LOD0|Fruit_LOD0|Fruit_LOD0|GlobularPlant_3_Small|Take 001|BaseLayer|
+  - first:
+      74: 5584921114882402986
+    second: Fruit_LOD0|Fruit_LOD0|Fruit_LOD0|GlobularPlant_4|Take 001|BaseLayer|Fruit_
+  - first:
+      74: -6440871279235620895
+    second: Fruit_LOD0|Fruit_LOD0|Fruit_LOD0|GlobularPlant_5|Take 001|BaseLayer|Fruit_
+  - first:
+      74: -5778314561332408706
+    second: Fruit_LOD0|Fruit_LOD0|Fruit_LOD0|GlobularPlant_6|Take 001|BaseLayer.001|Fr
+  - first:
+      74: 3465973760840146788
+    second: Fruit_LOD0|Fruit_LOD0|Fruit_LOD0|GlobularPlant_6|Take 001|BaseLayer.002|Fr
+  - first:
+      74: -3878755948058282794
+    second: Fruit_LOD0|Fruit_LOD0|Fruit_LOD0|GlobularPlant_6|Take 001|BaseLayer.003|Fr
+  - first:
+      74: 1500823118348234992
+    second: Fruit_LOD0|Fruit_LOD0|Fruit_LOD0|GlobularPlant_6|Take 001|BaseLayer|Fruit_
+  - first:
+      74: 4278910454704920401
+    second: Fruit_LOD0|Fruit_LOD0|Fruit_LOD0|GlobularPlant_7_Big001|Take 001|BaseLayer
+  - first:
+      74: -4693066899582753548
+    second: Fruit_LOD0|Fruit_LOD0|Fruit_LOD0|GlobularPlant_7_Big002|Take 001|BaseLayer
+  - first:
+      74: -6651805481370771222
+    second: Fruit_LOD0|Fruit_LOD0|Fruit_LOD0|GlobularPlant_7_Big|Take 001|BaseLayer|Fr
+  - first:
+      74: 1152470008577536181
+    second: Fruit_LOD0|Fruit_LOD0|Fruit_LOD0|GlobularPlant_7_Small|Take 001|BaseLayer|
+  - first:
+      74: 3413035391190002007
+    second: Fruit_LOD0|Fruit_LOD0|Fruit_LOD0|GlobularPlant_8_Sheet004|Take 001|BaseLay
+  - first:
+      74: -548605884110959405
+    second: Fruit_LOD0|Fruit_LOD0|Fruit_LOD0|GlobularPlant_8_Sheet006|Take 001|BaseLay
+  - first:
+      74: -5162173135518073393
+    second: Fruit_LOD0|Fruit_LOD0|Fruit_LOD0|GlobularPlant_8_Sheet010|Take 001|BaseLay
+  - first:
+      74: 780256186049107982
+    second: Fruit_LOD0|Fruit_LOD0|Fruit_LOD0|GlobularPlant_8_Sheet015|Take 001|BaseLay
+  - first:
+      74: 1418091837735046259
+    second: Fruit_LOD0|Fruit_LOD0|Fruit_LOD0|GlobularPlant_8_Sheet|Take 001|BaseLayer|
+  - first:
+      74: 568899606890053406
+    second: Fruit_LOD0|Fruit_LOD0|Fruit_LOD0|GlobularPlant_9_Big001|Take 001|BaseLayer
+  - first:
+      74: -9035006893984188951
+    second: Fruit_LOD0|Fruit_LOD0|Fruit_LOD0|GlobularPlant_9_Big004|Take 001|BaseLayer
+  - first:
+      74: 1893033185830605126
+    second: Fruit_LOD0|Fruit_LOD0|Fruit_LOD0|GlobularPlant_9_Big008|Take 001|BaseLayer
+  - first:
+      74: -2285538377973900141
+    second: Fruit_LOD0|Fruit_LOD0|Fruit_LOD0|GlobularPlant_9_Big|Take 001|BaseLayer|Fr
+  - first:
+      74: -6347655793402320925
+    second: Fruit_LOD0|Fruit_LOD0|Fruit_LOD0|GlobularPlant_9_Small|Take 001|BaseLayer|
+  - first:
+      74: -6926754620170469912
+    second: Fruit_LOD0|Fruit_LOD1|Fruit_LOD1|GlobularPlant_011|Take 001|BaseLayer|Frui
+  - first:
+      74: 7176454260347499736
+    second: Fruit_LOD0|Fruit_LOD1|Fruit_LOD1|GlobularPlant_016|Take 001|BaseLayer|Frui
+  - first:
+      74: -2184856115690992473
+    second: Fruit_LOD0|Fruit_LOD1|Fruit_LOD1|GlobularPlant_017|Take 001|BaseLayer|Frui
+  - first:
+      74: 2817889408524298512
+    second: Fruit_LOD0|Fruit_LOD1|Fruit_LOD1|GlobularPlant_018|Take 001|BaseLayer|Frui
+  - first:
+      74: -6391742950582584637
+    second: Fruit_LOD0|Fruit_LOD1|Fruit_LOD1|GlobularPlant_10|Take 001|BaseLayer|Fruit
+  - first:
+      74: -7417544116433487846
+    second: Fruit_LOD0|Fruit_LOD1|Fruit_LOD1|GlobularPlant_1_BigSphere001|Take 001|Bas
+  - first:
+      74: -8293021475515860407
+    second: Fruit_LOD0|Fruit_LOD1|Fruit_LOD1|GlobularPlant_1_BigSphere|Take 001|BaseLa
+  - first:
+      74: 3930474968935426153
+    second: Fruit_LOD0|Fruit_LOD1|Fruit_LOD1|GlobularPlant_1_SmallSphere|Take 001|Base
+  - first:
+      74: 7629604788324687382
+    second: Fruit_LOD0|Fruit_LOD1|Fruit_LOD1|GlobularPlant_3_Big001|Take 001|BaseLayer
+  - first:
+      74: 5625588294079351931
+    second: Fruit_LOD0|Fruit_LOD1|Fruit_LOD1|GlobularPlant_3_Big|Take 001|BaseLayer|Fr
+  - first:
+      74: 3098633305672611014
+    second: Fruit_LOD0|Fruit_LOD1|Fruit_LOD1|GlobularPlant_3_Mid006|Take 001|BaseLayer
+  - first:
+      74: 1088679228298310687
+    second: Fruit_LOD0|Fruit_LOD1|Fruit_LOD1|GlobularPlant_3_Mid1|Take 001|BaseLayer|F
+  - first:
+      74: -6269899221597506756
+    second: Fruit_LOD0|Fruit_LOD1|Fruit_LOD1|GlobularPlant_3_Mid2|Take 001|BaseLayer|F
+  - first:
+      74: 8707197444590134464
+    second: Fruit_LOD0|Fruit_LOD1|Fruit_LOD1|GlobularPlant_3_Small|Take 001|BaseLayer|
+  - first:
+      74: -7373742535202931653
+    second: Fruit_LOD0|Fruit_LOD1|Fruit_LOD1|GlobularPlant_4|Take 001|BaseLayer|Fruit_
+  - first:
+      74: -6576389609951674850
+    second: Fruit_LOD0|Fruit_LOD1|Fruit_LOD1|GlobularPlant_5|Take 001|BaseLayer|Fruit_
+  - first:
+      74: 3772005145642507286
+    second: Fruit_LOD0|Fruit_LOD1|Fruit_LOD1|GlobularPlant_6|Take 001|BaseLayer.001|Fr
+  - first:
+      74: 5421183099674926986
+    second: Fruit_LOD0|Fruit_LOD1|Fruit_LOD1|GlobularPlant_6|Take 001|BaseLayer.002|Fr
+  - first:
+      74: -7832537180691713506
+    second: Fruit_LOD0|Fruit_LOD1|Fruit_LOD1|GlobularPlant_6|Take 001|BaseLayer.003|Fr
+  - first:
+      74: -3696568171005249665
+    second: Fruit_LOD0|Fruit_LOD1|Fruit_LOD1|GlobularPlant_6|Take 001|BaseLayer|Fruit_
+  - first:
+      74: 2557971095876462875
+    second: Fruit_LOD0|Fruit_LOD1|Fruit_LOD1|GlobularPlant_7_Big001|Take 001|BaseLayer
+  - first:
+      74: -1917118660662032759
+    second: Fruit_LOD0|Fruit_LOD1|Fruit_LOD1|GlobularPlant_7_Big002|Take 001|BaseLayer
+  - first:
+      74: -7022184662654723295
+    second: Fruit_LOD0|Fruit_LOD1|Fruit_LOD1|GlobularPlant_7_Big|Take 001|BaseLayer|Fr
+  - first:
+      74: 5407276895012225292
+    second: Fruit_LOD0|Fruit_LOD1|Fruit_LOD1|GlobularPlant_7_Small|Take 001|BaseLayer|
+  - first:
+      74: -8833530239093747942
+    second: Fruit_LOD0|Fruit_LOD1|Fruit_LOD1|GlobularPlant_8_Sheet004|Take 001|BaseLay
+  - first:
+      74: 3667119592419985823
+    second: Fruit_LOD0|Fruit_LOD1|Fruit_LOD1|GlobularPlant_8_Sheet006|Take 001|BaseLay
+  - first:
+      74: -3375311431500676170
+    second: Fruit_LOD0|Fruit_LOD1|Fruit_LOD1|GlobularPlant_8_Sheet010|Take 001|BaseLay
+  - first:
+      74: 619472034987204119
+    second: Fruit_LOD0|Fruit_LOD1|Fruit_LOD1|GlobularPlant_8_Sheet015|Take 001|BaseLay
+  - first:
+      74: 5807477797808516177
+    second: Fruit_LOD0|Fruit_LOD1|Fruit_LOD1|GlobularPlant_8_Sheet|Take 001|BaseLayer|
+  - first:
+      74: -5879777610180142911
+    second: Fruit_LOD0|Fruit_LOD1|Fruit_LOD1|GlobularPlant_9_Big001|Take 001|BaseLayer
+  - first:
+      74: 3017370653128255807
+    second: Fruit_LOD0|Fruit_LOD1|Fruit_LOD1|GlobularPlant_9_Big004|Take 001|BaseLayer
+  - first:
+      74: -8077475380128110567
+    second: Fruit_LOD0|Fruit_LOD1|Fruit_LOD1|GlobularPlant_9_Big008|Take 001|BaseLayer
+  - first:
+      74: 609224609015836968
+    second: Fruit_LOD0|Fruit_LOD1|Fruit_LOD1|GlobularPlant_9_Big|Take 001|BaseLayer|Fr
+  - first:
+      74: 1896548481287086551
+    second: Fruit_LOD0|Fruit_LOD1|Fruit_LOD1|GlobularPlant_9_Small|Take 001|BaseLayer|
+  - first:
+      74: -3025149077882972482
+    second: Fruit_LOD0|Fruit_LOD2|Fruit_LOD2|GlobularPlant_011|Take 001|BaseLayer|Frui
+  - first:
+      74: -1495526977904140602
+    second: Fruit_LOD0|Fruit_LOD2|Fruit_LOD2|GlobularPlant_016|Take 001|BaseLayer|Frui
+  - first:
+      74: 6119970245922659419
+    second: Fruit_LOD0|Fruit_LOD2|Fruit_LOD2|GlobularPlant_017|Take 001|BaseLayer|Frui
+  - first:
+      74: -1194215527680787109
+    second: Fruit_LOD0|Fruit_LOD2|Fruit_LOD2|GlobularPlant_018|Take 001|BaseLayer|Frui
+  - first:
+      74: 5725705663956042778
+    second: Fruit_LOD0|Fruit_LOD2|Fruit_LOD2|GlobularPlant_10|Take 001|BaseLayer|Fruit
+  - first:
+      74: 1902146100473293901
+    second: Fruit_LOD0|Fruit_LOD2|Fruit_LOD2|GlobularPlant_1_BigSphere001|Take 001|Bas
+  - first:
+      74: 1084577523337096956
+    second: Fruit_LOD0|Fruit_LOD2|Fruit_LOD2|GlobularPlant_1_BigSphere|Take 001|BaseLa
+  - first:
+      74: -6395522312028636559
+    second: Fruit_LOD0|Fruit_LOD2|Fruit_LOD2|GlobularPlant_1_SmallSphere|Take 001|Base
+  - first:
+      74: -8627185099449858675
+    second: Fruit_LOD0|Fruit_LOD2|Fruit_LOD2|GlobularPlant_3_Big001|Take 001|BaseLayer
+  - first:
+      74: 3723827892524837165
+    second: Fruit_LOD0|Fruit_LOD2|Fruit_LOD2|GlobularPlant_3_Big|Take 001|BaseLayer|Fr
+  - first:
+      74: -1484269802046599631
+    second: Fruit_LOD0|Fruit_LOD2|Fruit_LOD2|GlobularPlant_3_Mid006|Take 001|BaseLayer
+  - first:
+      74: -5041652835764625092
+    second: Fruit_LOD0|Fruit_LOD2|Fruit_LOD2|GlobularPlant_3_Mid1|Take 001|BaseLayer|F
+  - first:
+      74: -5815421350773881765
+    second: Fruit_LOD0|Fruit_LOD2|Fruit_LOD2|GlobularPlant_3_Mid2|Take 001|BaseLayer|F
+  - first:
+      74: 5032531941386716983
+    second: Fruit_LOD0|Fruit_LOD2|Fruit_LOD2|GlobularPlant_3_Small|Take 001|BaseLayer|
+  - first:
+      74: 2667956076436520057
+    second: Fruit_LOD0|Fruit_LOD2|Fruit_LOD2|GlobularPlant_4|Take 001|BaseLayer|Fruit_
+  - first:
+      74: -4873345275274771362
+    second: Fruit_LOD0|Fruit_LOD2|Fruit_LOD2|GlobularPlant_5|Take 001|BaseLayer|Fruit_
+  - first:
+      74: -5562019638913943304
+    second: Fruit_LOD0|Fruit_LOD2|Fruit_LOD2|GlobularPlant_6|Take 001|BaseLayer.001|Fr
+  - first:
+      74: -5838902224172783763
+    second: Fruit_LOD0|Fruit_LOD2|Fruit_LOD2|GlobularPlant_6|Take 001|BaseLayer.002|Fr
+  - first:
+      74: 2449357106163771939
+    second: Fruit_LOD0|Fruit_LOD2|Fruit_LOD2|GlobularPlant_6|Take 001|BaseLayer.003|Fr
+  - first:
+      74: -4805120472981910025
+    second: Fruit_LOD0|Fruit_LOD2|Fruit_LOD2|GlobularPlant_6|Take 001|BaseLayer|Fruit_
+  - first:
+      74: 7538516579878617023
+    second: Fruit_LOD0|Fruit_LOD2|Fruit_LOD2|GlobularPlant_7_Big001|Take 001|BaseLayer
+  - first:
+      74: -5979360487770060371
+    second: Fruit_LOD0|Fruit_LOD2|Fruit_LOD2|GlobularPlant_7_Big002|Take 001|BaseLayer
+  - first:
+      74: 8293955301976596085
+    second: Fruit_LOD0|Fruit_LOD2|Fruit_LOD2|GlobularPlant_7_Big|Take 001|BaseLayer|Fr
+  - first:
+      74: -1333983867660625204
+    second: Fruit_LOD0|Fruit_LOD2|Fruit_LOD2|GlobularPlant_7_Small|Take 001|BaseLayer|
+  - first:
+      74: 3638779355625845209
+    second: Fruit_LOD0|Fruit_LOD2|Fruit_LOD2|GlobularPlant_8_Sheet004|Take 001|BaseLay
+  - first:
+      74: 7834272030508391333
+    second: Fruit_LOD0|Fruit_LOD2|Fruit_LOD2|GlobularPlant_8_Sheet006|Take 001|BaseLay
+  - first:
+      74: 5440624424143644102
+    second: Fruit_LOD0|Fruit_LOD2|Fruit_LOD2|GlobularPlant_8_Sheet010|Take 001|BaseLay
+  - first:
+      74: -587229469861952856
+    second: Fruit_LOD0|Fruit_LOD2|Fruit_LOD2|GlobularPlant_8_Sheet015|Take 001|BaseLay
+  - first:
+      74: -801585488009239450
+    second: Fruit_LOD0|Fruit_LOD2|Fruit_LOD2|GlobularPlant_8_Sheet|Take 001|BaseLayer|
+  - first:
+      74: 4460589191048950533
+    second: Fruit_LOD0|Fruit_LOD2|Fruit_LOD2|GlobularPlant_9_Big001|Take 001|BaseLayer
+  - first:
+      74: 850464280761539358
+    second: Fruit_LOD0|Fruit_LOD2|Fruit_LOD2|GlobularPlant_9_Big004|Take 001|BaseLayer
+  - first:
+      74: 6410577638276906915
+    second: Fruit_LOD0|Fruit_LOD2|Fruit_LOD2|GlobularPlant_9_Big008|Take 001|BaseLayer
+  - first:
+      74: -7990949820972128408
+    second: Fruit_LOD0|Fruit_LOD2|Fruit_LOD2|GlobularPlant_9_Big|Take 001|BaseLayer|Fr
+  - first:
+      74: 832369866010211361
+    second: Fruit_LOD0|Fruit_LOD2|Fruit_LOD2|GlobularPlant_9_Small|Take 001|BaseLayer|
+  - first:
+      74: 3363484524774500440
+    second: Fruit_LOD0|Fruit_LOD3|Fruit_LOD3|GlobularPlant_011|Take 001|BaseLayer|Frui
+  - first:
+      74: -7997984205204993725
+    second: Fruit_LOD0|Fruit_LOD3|Fruit_LOD3|GlobularPlant_016|Take 001|BaseLayer|Frui
+  - first:
+      74: 247455375199537264
+    second: Fruit_LOD0|Fruit_LOD3|Fruit_LOD3|GlobularPlant_017|Take 001|BaseLayer|Frui
+  - first:
+      74: -3341074124743781321
+    second: Fruit_LOD0|Fruit_LOD3|Fruit_LOD3|GlobularPlant_018|Take 001|BaseLayer|Frui
+  - first:
+      74: -2744032989596913148
+    second: Fruit_LOD0|Fruit_LOD3|Fruit_LOD3|GlobularPlant_10|Take 001|BaseLayer|Fruit
+  - first:
+      74: -2914054426529448386
+    second: Fruit_LOD0|Fruit_LOD3|Fruit_LOD3|GlobularPlant_1_BigSphere001|Take 001|Bas
+  - first:
+      74: 8722197455043626294
+    second: Fruit_LOD0|Fruit_LOD3|Fruit_LOD3|GlobularPlant_1_BigSphere|Take 001|BaseLa
+  - first:
+      74: 7854777331492006987
+    second: Fruit_LOD0|Fruit_LOD3|Fruit_LOD3|GlobularPlant_1_SmallSphere|Take 001|Base
+  - first:
+      74: -3731545159537779096
+    second: Fruit_LOD0|Fruit_LOD3|Fruit_LOD3|GlobularPlant_3_Big001|Take 001|BaseLayer
+  - first:
+      74: 5184871429613794534
+    second: Fruit_LOD0|Fruit_LOD3|Fruit_LOD3|GlobularPlant_3_Big|Take 001|BaseLayer|Fr
+  - first:
+      74: -2489624564722811604
+    second: Fruit_LOD0|Fruit_LOD3|Fruit_LOD3|GlobularPlant_3_Mid006|Take 001|BaseLayer
+  - first:
+      74: -990397998315732050
+    second: Fruit_LOD0|Fruit_LOD3|Fruit_LOD3|GlobularPlant_3_Mid1|Take 001|BaseLayer|F
+  - first:
+      74: -4358552305980503483
+    second: Fruit_LOD0|Fruit_LOD3|Fruit_LOD3|GlobularPlant_3_Mid2|Take 001|BaseLayer|F
+  - first:
+      74: 3481580687162196143
+    second: Fruit_LOD0|Fruit_LOD3|Fruit_LOD3|GlobularPlant_3_Small|Take 001|BaseLayer|
+  - first:
+      74: -8154442511005164516
+    second: Fruit_LOD0|Fruit_LOD3|Fruit_LOD3|GlobularPlant_4|Take 001|BaseLayer|Fruit_
+  - first:
+      74: 8113394971126688320
+    second: Fruit_LOD0|Fruit_LOD3|Fruit_LOD3|GlobularPlant_5|Take 001|BaseLayer|Fruit_
+  - first:
+      74: -7096990858025223927
+    second: Fruit_LOD0|Fruit_LOD3|Fruit_LOD3|GlobularPlant_6|Take 001|BaseLayer.001|Fr
+  - first:
+      74: -5471180419467340267
+    second: Fruit_LOD0|Fruit_LOD3|Fruit_LOD3|GlobularPlant_6|Take 001|BaseLayer.002|Fr
+  - first:
+      74: 6614941614210563077
+    second: Fruit_LOD0|Fruit_LOD3|Fruit_LOD3|GlobularPlant_6|Take 001|BaseLayer.003|Fr
+  - first:
+      74: -3479959620361096196
+    second: Fruit_LOD0|Fruit_LOD3|Fruit_LOD3|GlobularPlant_6|Take 001|BaseLayer|Fruit_
+  - first:
+      74: -4339358498279005239
+    second: Fruit_LOD0|Fruit_LOD3|Fruit_LOD3|GlobularPlant_7_Big001|Take 001|BaseLayer
+  - first:
+      74: -7409089677270831256
+    second: Fruit_LOD0|Fruit_LOD3|Fruit_LOD3|GlobularPlant_7_Big002|Take 001|BaseLayer
+  - first:
+      74: 7135552195041682672
+    second: Fruit_LOD0|Fruit_LOD3|Fruit_LOD3|GlobularPlant_7_Big|Take 001|BaseLayer|Fr
+  - first:
+      74: -1756643277212822703
+    second: Fruit_LOD0|Fruit_LOD3|Fruit_LOD3|GlobularPlant_7_Small|Take 001|BaseLayer|
+  - first:
+      74: -4365409298569922515
+    second: Fruit_LOD0|Fruit_LOD3|Fruit_LOD3|GlobularPlant_8_Sheet004|Take 001|BaseLay
+  - first:
+      74: 8439577143517659787
+    second: Fruit_LOD0|Fruit_LOD3|Fruit_LOD3|GlobularPlant_8_Sheet006|Take 001|BaseLay
+  - first:
+      74: 7967414715326870143
+    second: Fruit_LOD0|Fruit_LOD3|Fruit_LOD3|GlobularPlant_8_Sheet010|Take 001|BaseLay
+  - first:
+      74: 5811722929366985667
+    second: Fruit_LOD0|Fruit_LOD3|Fruit_LOD3|GlobularPlant_8_Sheet015|Take 001|BaseLay
+  - first:
+      74: 1439614533038262484
+    second: Fruit_LOD0|Fruit_LOD3|Fruit_LOD3|GlobularPlant_8_Sheet|Take 001|BaseLayer|
+  - first:
+      74: -6697424800885149520
+    second: Fruit_LOD0|Fruit_LOD3|Fruit_LOD3|GlobularPlant_9_Big001|Take 001|BaseLayer
+  - first:
+      74: 5676376181600748001
+    second: Fruit_LOD0|Fruit_LOD3|Fruit_LOD3|GlobularPlant_9_Big004|Take 001|BaseLayer
+  - first:
+      74: 8645623830609980650
+    second: Fruit_LOD0|Fruit_LOD3|Fruit_LOD3|GlobularPlant_9_Big008|Take 001|BaseLayer
+  - first:
+      74: -6570699584515430514
+    second: Fruit_LOD0|Fruit_LOD3|Fruit_LOD3|GlobularPlant_9_Big|Take 001|BaseLayer|Fr
+  - first:
+      74: -1260034147565919043
+    second: Fruit_LOD0|Fruit_LOD3|Fruit_LOD3|GlobularPlant_9_Small|Take 001|BaseLayer|
+  - first:
+      74: 8336204514971070129
+    second: Fruit_LOD1|Fruit_LOD0|Fruit_LOD0|GlobularPlant_011|Take 001|BaseLayer|Frui
+  - first:
+      74: -9091963513560431507
+    second: Fruit_LOD1|Fruit_LOD0|Fruit_LOD0|GlobularPlant_016|Take 001|BaseLayer|Frui
+  - first:
+      74: -520050790876504986
+    second: Fruit_LOD1|Fruit_LOD0|Fruit_LOD0|GlobularPlant_017|Take 001|BaseLayer|Frui
+  - first:
+      74: 8148657718087728481
+    second: Fruit_LOD1|Fruit_LOD0|Fruit_LOD0|GlobularPlant_018|Take 001|BaseLayer|Frui
+  - first:
+      74: -4047399806065492530
+    second: Fruit_LOD1|Fruit_LOD0|Fruit_LOD0|GlobularPlant_10|Take 001|BaseLayer|Fruit
+  - first:
+      74: -2183706269048221020
+    second: Fruit_LOD1|Fruit_LOD0|Fruit_LOD0|GlobularPlant_1_BigSphere001|Take 001|Bas
+  - first:
+      74: 8642360538171017884
+    second: Fruit_LOD1|Fruit_LOD0|Fruit_LOD0|GlobularPlant_1_BigSphere|Take 001|BaseLa
+  - first:
+      74: 7616553769791842172
+    second: Fruit_LOD1|Fruit_LOD0|Fruit_LOD0|GlobularPlant_1_SmallSphere|Take 001|Base
+  - first:
+      74: -300680410745618019
+    second: Fruit_LOD1|Fruit_LOD0|Fruit_LOD0|GlobularPlant_3_Big001|Take 001|BaseLayer
+  - first:
+      74: 4411248443477845963
+    second: Fruit_LOD1|Fruit_LOD0|Fruit_LOD0|GlobularPlant_3_Big|Take 001|BaseLayer|Fr
+  - first:
+      74: -6545975982240558824
+    second: Fruit_LOD1|Fruit_LOD0|Fruit_LOD0|GlobularPlant_3_Mid006|Take 001|BaseLayer
+  - first:
+      74: 798488532513232579
+    second: Fruit_LOD1|Fruit_LOD0|Fruit_LOD0|GlobularPlant_3_Mid1|Take 001|BaseLayer|F
+  - first:
+      74: -5421447995322643768
+    second: Fruit_LOD1|Fruit_LOD0|Fruit_LOD0|GlobularPlant_3_Mid2|Take 001|BaseLayer|F
+  - first:
+      74: -3531981510968899089
+    second: Fruit_LOD1|Fruit_LOD0|Fruit_LOD0|GlobularPlant_3_Small|Take 001|BaseLayer|
+  - first:
+      74: 684411982353524520
+    second: Fruit_LOD1|Fruit_LOD0|Fruit_LOD0|GlobularPlant_4|Take 001|BaseLayer|Fruit_
+  - first:
+      74: 4660902333463031405
+    second: Fruit_LOD1|Fruit_LOD0|Fruit_LOD0|GlobularPlant_5|Take 001|BaseLayer|Fruit_
+  - first:
+      74: -7650685184121344498
+    second: Fruit_LOD1|Fruit_LOD0|Fruit_LOD0|GlobularPlant_6|Take 001|BaseLayer.001|Fr
+  - first:
+      74: 1217326357017611634
+    second: Fruit_LOD1|Fruit_LOD0|Fruit_LOD0|GlobularPlant_6|Take 001|BaseLayer.002|Fr
+  - first:
+      74: 9119786290266530919
+    second: Fruit_LOD1|Fruit_LOD0|Fruit_LOD0|GlobularPlant_6|Take 001|BaseLayer.003|Fr
+  - first:
+      74: -8522276871054633573
+    second: Fruit_LOD1|Fruit_LOD0|Fruit_LOD0|GlobularPlant_6|Take 001|BaseLayer|Fruit_
+  - first:
+      74: -2485989932335758350
+    second: Fruit_LOD1|Fruit_LOD0|Fruit_LOD0|GlobularPlant_7_Big001|Take 001|BaseLayer
+  - first:
+      74: -2173822893069910879
+    second: Fruit_LOD1|Fruit_LOD0|Fruit_LOD0|GlobularPlant_7_Big002|Take 001|BaseLayer
+  - first:
+      74: -6502583110796020801
+    second: Fruit_LOD1|Fruit_LOD0|Fruit_LOD0|GlobularPlant_7_Big|Take 001|BaseLayer|Fr
+  - first:
+      74: 495068200622994444
+    second: Fruit_LOD1|Fruit_LOD0|Fruit_LOD0|GlobularPlant_7_Small|Take 001|BaseLayer|
+  - first:
+      74: -1346063460806804937
+    second: Fruit_LOD1|Fruit_LOD0|Fruit_LOD0|GlobularPlant_8_Sheet004|Take 001|BaseLay
+  - first:
+      74: 588741169665149854
+    second: Fruit_LOD1|Fruit_LOD0|Fruit_LOD0|GlobularPlant_8_Sheet006|Take 001|BaseLay
+  - first:
+      74: -3900609480666732193
+    second: Fruit_LOD1|Fruit_LOD0|Fruit_LOD0|GlobularPlant_8_Sheet010|Take 001|BaseLay
+  - first:
+      74: 7119364113942985751
+    second: Fruit_LOD1|Fruit_LOD0|Fruit_LOD0|GlobularPlant_8_Sheet015|Take 001|BaseLay
+  - first:
+      74: 5263650528054224520
+    second: Fruit_LOD1|Fruit_LOD0|Fruit_LOD0|GlobularPlant_8_Sheet|Take 001|BaseLayer|
+  - first:
+      74: 6042224302490437836
+    second: Fruit_LOD1|Fruit_LOD0|Fruit_LOD0|GlobularPlant_9_Big001|Take 001|BaseLayer
+  - first:
+      74: 8246746166905462582
+    second: Fruit_LOD1|Fruit_LOD0|Fruit_LOD0|GlobularPlant_9_Big004|Take 001|BaseLayer
+  - first:
+      74: 6778734581991387274
+    second: Fruit_LOD1|Fruit_LOD0|Fruit_LOD0|GlobularPlant_9_Big008|Take 001|BaseLayer
+  - first:
+      74: 6524376713680671154
+    second: Fruit_LOD1|Fruit_LOD0|Fruit_LOD0|GlobularPlant_9_Big|Take 001|BaseLayer|Fr
+  - first:
+      74: -6203947622662166460
+    second: Fruit_LOD1|Fruit_LOD0|Fruit_LOD0|GlobularPlant_9_Small|Take 001|BaseLayer|
+  - first:
+      74: 5931338054780741345
+    second: Fruit_LOD1|Fruit_LOD1|Fruit_LOD1|GlobularPlant_011|Take 001|BaseLayer|Frui
+  - first:
+      74: 298421631961663062
+    second: Fruit_LOD1|Fruit_LOD1|Fruit_LOD1|GlobularPlant_016|Take 001|BaseLayer|Frui
+  - first:
+      74: -8392373769263024236
+    second: Fruit_LOD1|Fruit_LOD1|Fruit_LOD1|GlobularPlant_017|Take 001|BaseLayer|Frui
+  - first:
+      74: 6453944853394944825
+    second: Fruit_LOD1|Fruit_LOD1|Fruit_LOD1|GlobularPlant_018|Take 001|BaseLayer|Frui
+  - first:
+      74: -7775176174167431969
+    second: Fruit_LOD1|Fruit_LOD1|Fruit_LOD1|GlobularPlant_10|Take 001|BaseLayer|Fruit
+  - first:
+      74: 7797997420765131348
+    second: Fruit_LOD1|Fruit_LOD1|Fruit_LOD1|GlobularPlant_1_BigSphere001|Take 001|Bas
+  - first:
+      74: -2519350700994406516
+    second: Fruit_LOD1|Fruit_LOD1|Fruit_LOD1|GlobularPlant_1_BigSphere|Take 001|BaseLa
+  - first:
+      74: 592809042178388645
+    second: Fruit_LOD1|Fruit_LOD1|Fruit_LOD1|GlobularPlant_1_SmallSphere|Take 001|Base
+  - first:
+      74: 8843087989421534852
+    second: Fruit_LOD1|Fruit_LOD1|Fruit_LOD1|GlobularPlant_3_Big001|Take 001|BaseLayer
+  - first:
+      74: 8088148485849108362
+    second: Fruit_LOD1|Fruit_LOD1|Fruit_LOD1|GlobularPlant_3_Big|Take 001|BaseLayer|Fr
+  - first:
+      74: 5249335189424888917
+    second: Fruit_LOD1|Fruit_LOD1|Fruit_LOD1|GlobularPlant_3_Mid006|Take 001|BaseLayer
+  - first:
+      74: 4288668912472722840
+    second: Fruit_LOD1|Fruit_LOD1|Fruit_LOD1|GlobularPlant_3_Mid1|Take 001|BaseLayer|F
+  - first:
+      74: -7141856291690032129
+    second: Fruit_LOD1|Fruit_LOD1|Fruit_LOD1|GlobularPlant_3_Mid2|Take 001|BaseLayer|F
+  - first:
+      74: -569875239797244346
+    second: Fruit_LOD1|Fruit_LOD1|Fruit_LOD1|GlobularPlant_3_Small|Take 001|BaseLayer|
+  - first:
+      74: -7936758640701751261
+    second: Fruit_LOD1|Fruit_LOD1|Fruit_LOD1|GlobularPlant_4|Take 001|BaseLayer|Fruit_
+  - first:
+      74: 6386252985126777907
+    second: Fruit_LOD1|Fruit_LOD1|Fruit_LOD1|GlobularPlant_5|Take 001|BaseLayer|Fruit_
+  - first:
+      74: -430920582538578918
+    second: Fruit_LOD1|Fruit_LOD1|Fruit_LOD1|GlobularPlant_6|Take 001|BaseLayer.001|Fr
+  - first:
+      74: 6993868940059592157
+    second: Fruit_LOD1|Fruit_LOD1|Fruit_LOD1|GlobularPlant_6|Take 001|BaseLayer.002|Fr
+  - first:
+      74: -2366982900555739894
+    second: Fruit_LOD1|Fruit_LOD1|Fruit_LOD1|GlobularPlant_6|Take 001|BaseLayer.003|Fr
+  - first:
+      74: 4827692363989050288
+    second: Fruit_LOD1|Fruit_LOD1|Fruit_LOD1|GlobularPlant_6|Take 001|BaseLayer|Fruit_
+  - first:
+      74: -2085006954931613180
+    second: Fruit_LOD1|Fruit_LOD1|Fruit_LOD1|GlobularPlant_7_Big001|Take 001|BaseLayer
+  - first:
+      74: -8770529815372282020
+    second: Fruit_LOD1|Fruit_LOD1|Fruit_LOD1|GlobularPlant_7_Big002|Take 001|BaseLayer
+  - first:
+      74: 2830096471650499860
+    second: Fruit_LOD1|Fruit_LOD1|Fruit_LOD1|GlobularPlant_7_Big|Take 001|BaseLayer|Fr
+  - first:
+      74: 9036087609130905828
+    second: Fruit_LOD1|Fruit_LOD1|Fruit_LOD1|GlobularPlant_7_Small|Take 001|BaseLayer|
+  - first:
+      74: 8718058618298509127
+    second: Fruit_LOD1|Fruit_LOD1|Fruit_LOD1|GlobularPlant_8_Sheet004|Take 001|BaseLay
+  - first:
+      74: -4905352372256389329
+    second: Fruit_LOD1|Fruit_LOD1|Fruit_LOD1|GlobularPlant_8_Sheet006|Take 001|BaseLay
+  - first:
+      74: 4252653404882600744
+    second: Fruit_LOD1|Fruit_LOD1|Fruit_LOD1|GlobularPlant_8_Sheet010|Take 001|BaseLay
+  - first:
+      74: -7074638427121355220
+    second: Fruit_LOD1|Fruit_LOD1|Fruit_LOD1|GlobularPlant_8_Sheet015|Take 001|BaseLay
+  - first:
+      74: 5809057863811386084
+    second: Fruit_LOD1|Fruit_LOD1|Fruit_LOD1|GlobularPlant_8_Sheet|Take 001|BaseLayer|
+  - first:
+      74: -6608826287430304415
+    second: Fruit_LOD1|Fruit_LOD1|Fruit_LOD1|GlobularPlant_9_Big001|Take 001|BaseLayer
+  - first:
+      74: 8282200306184539446
+    second: Fruit_LOD1|Fruit_LOD1|Fruit_LOD1|GlobularPlant_9_Big004|Take 001|BaseLayer
+  - first:
+      74: -6408860034823727079
+    second: Fruit_LOD1|Fruit_LOD1|Fruit_LOD1|GlobularPlant_9_Big008|Take 001|BaseLayer
+  - first:
+      74: -5975050386136422175
+    second: Fruit_LOD1|Fruit_LOD1|Fruit_LOD1|GlobularPlant_9_Big|Take 001|BaseLayer|Fr
+  - first:
+      74: 984825535010967551
+    second: Fruit_LOD1|Fruit_LOD1|Fruit_LOD1|GlobularPlant_9_Small|Take 001|BaseLayer|
+  - first:
+      74: 5338398762437172224
+    second: Fruit_LOD1|Fruit_LOD2|Fruit_LOD2|GlobularPlant_011|Take 001|BaseLayer|Frui
+  - first:
+      74: 6407040721750064411
+    second: Fruit_LOD1|Fruit_LOD2|Fruit_LOD2|GlobularPlant_016|Take 001|BaseLayer|Frui
+  - first:
+      74: -5635035650176407175
+    second: Fruit_LOD1|Fruit_LOD2|Fruit_LOD2|GlobularPlant_017|Take 001|BaseLayer|Frui
+  - first:
+      74: 9038032955419510449
+    second: Fruit_LOD1|Fruit_LOD2|Fruit_LOD2|GlobularPlant_018|Take 001|BaseLayer|Frui
+  - first:
+      74: -7827223403567479299
+    second: Fruit_LOD1|Fruit_LOD2|Fruit_LOD2|GlobularPlant_10|Take 001|BaseLayer|Fruit
+  - first:
+      74: 7664730897979537882
+    second: Fruit_LOD1|Fruit_LOD2|Fruit_LOD2|GlobularPlant_1_BigSphere001|Take 001|Bas
+  - first:
+      74: -8680940135377717178
+    second: Fruit_LOD1|Fruit_LOD2|Fruit_LOD2|GlobularPlant_1_BigSphere|Take 001|BaseLa
+  - first:
+      74: 1557037365603714216
+    second: Fruit_LOD1|Fruit_LOD2|Fruit_LOD2|GlobularPlant_1_SmallSphere|Take 001|Base
+  - first:
+      74: 4315226596836782016
+    second: Fruit_LOD1|Fruit_LOD2|Fruit_LOD2|GlobularPlant_3_Big001|Take 001|BaseLayer
+  - first:
+      74: -5401486776604680028
+    second: Fruit_LOD1|Fruit_LOD2|Fruit_LOD2|GlobularPlant_3_Big|Take 001|BaseLayer|Fr
+  - first:
+      74: -3626174068929599510
+    second: Fruit_LOD1|Fruit_LOD2|Fruit_LOD2|GlobularPlant_3_Mid006|Take 001|BaseLayer
+  - first:
+      74: 5289480261834657667
+    second: Fruit_LOD1|Fruit_LOD2|Fruit_LOD2|GlobularPlant_3_Mid1|Take 001|BaseLayer|F
+  - first:
+      74: -8099389125936705061
+    second: Fruit_LOD1|Fruit_LOD2|Fruit_LOD2|GlobularPlant_3_Mid2|Take 001|BaseLayer|F
+  - first:
+      74: 3663111366594022382
+    second: Fruit_LOD1|Fruit_LOD2|Fruit_LOD2|GlobularPlant_3_Small|Take 001|BaseLayer|
+  - first:
+      74: 6211576882855108165
+    second: Fruit_LOD1|Fruit_LOD2|Fruit_LOD2|GlobularPlant_4|Take 001|BaseLayer|Fruit_
+  - first:
+      74: 7167973657983243407
+    second: Fruit_LOD1|Fruit_LOD2|Fruit_LOD2|GlobularPlant_5|Take 001|BaseLayer|Fruit_
+  - first:
+      74: 2321954915062126065
+    second: Fruit_LOD1|Fruit_LOD2|Fruit_LOD2|GlobularPlant_6|Take 001|BaseLayer.001|Fr
+  - first:
+      74: 7542282746196156976
+    second: Fruit_LOD1|Fruit_LOD2|Fruit_LOD2|GlobularPlant_6|Take 001|BaseLayer.002|Fr
+  - first:
+      74: -8057946029213480891
+    second: Fruit_LOD1|Fruit_LOD2|Fruit_LOD2|GlobularPlant_6|Take 001|BaseLayer.003|Fr
+  - first:
+      74: -3957201617188878035
+    second: Fruit_LOD1|Fruit_LOD2|Fruit_LOD2|GlobularPlant_6|Take 001|BaseLayer|Fruit_
+  - first:
+      74: -3154070660721970971
+    second: Fruit_LOD1|Fruit_LOD2|Fruit_LOD2|GlobularPlant_7_Big001|Take 001|BaseLayer
+  - first:
+      74: 2902381132804949466
+    second: Fruit_LOD1|Fruit_LOD2|Fruit_LOD2|GlobularPlant_7_Big002|Take 001|BaseLayer
+  - first:
+      74: 5676925544823967229
+    second: Fruit_LOD1|Fruit_LOD2|Fruit_LOD2|GlobularPlant_7_Big|Take 001|BaseLayer|Fr
+  - first:
+      74: 2692326370428392064
+    second: Fruit_LOD1|Fruit_LOD2|Fruit_LOD2|GlobularPlant_7_Small|Take 001|BaseLayer|
+  - first:
+      74: 2363913323666995943
+    second: Fruit_LOD1|Fruit_LOD2|Fruit_LOD2|GlobularPlant_8_Sheet004|Take 001|BaseLay
+  - first:
+      74: -939163415478609834
+    second: Fruit_LOD1|Fruit_LOD2|Fruit_LOD2|GlobularPlant_8_Sheet006|Take 001|BaseLay
+  - first:
+      74: -7401517423899374922
+    second: Fruit_LOD1|Fruit_LOD2|Fruit_LOD2|GlobularPlant_8_Sheet010|Take 001|BaseLay
+  - first:
+      74: -8328853510877947282
+    second: Fruit_LOD1|Fruit_LOD2|Fruit_LOD2|GlobularPlant_8_Sheet015|Take 001|BaseLay
+  - first:
+      74: -6725152842314826830
+    second: Fruit_LOD1|Fruit_LOD2|Fruit_LOD2|GlobularPlant_8_Sheet|Take 001|BaseLayer|
+  - first:
+      74: -5095163693309124443
+    second: Fruit_LOD1|Fruit_LOD2|Fruit_LOD2|GlobularPlant_9_Big001|Take 001|BaseLayer
+  - first:
+      74: 5678738890873712115
+    second: Fruit_LOD1|Fruit_LOD2|Fruit_LOD2|GlobularPlant_9_Big004|Take 001|BaseLayer
+  - first:
+      74: 5596587182023990027
+    second: Fruit_LOD1|Fruit_LOD2|Fruit_LOD2|GlobularPlant_9_Big008|Take 001|BaseLayer
+  - first:
+      74: 862369868427729443
+    second: Fruit_LOD1|Fruit_LOD2|Fruit_LOD2|GlobularPlant_9_Big|Take 001|BaseLayer|Fr
+  - first:
+      74: 5793404407670466440
+    second: Fruit_LOD1|Fruit_LOD2|Fruit_LOD2|GlobularPlant_9_Small|Take 001|BaseLayer|
+  - first:
+      74: -3284079107951840372
+    second: Fruit_LOD1|Fruit_LOD3|Fruit_LOD3|GlobularPlant_011|Take 001|BaseLayer|Frui
+  - first:
+      74: 1671911042699510499
+    second: Fruit_LOD1|Fruit_LOD3|Fruit_LOD3|GlobularPlant_016|Take 001|BaseLayer|Frui
+  - first:
+      74: -2875207723839017638
+    second: Fruit_LOD1|Fruit_LOD3|Fruit_LOD3|GlobularPlant_017|Take 001|BaseLayer|Frui
+  - first:
+      74: 8499986495848276320
+    second: Fruit_LOD1|Fruit_LOD3|Fruit_LOD3|GlobularPlant_018|Take 001|BaseLayer|Frui
+  - first:
+      74: -4547656856917862323
+    second: Fruit_LOD1|Fruit_LOD3|Fruit_LOD3|GlobularPlant_10|Take 001|BaseLayer|Fruit
+  - first:
+      74: 2447370535885479141
+    second: Fruit_LOD1|Fruit_LOD3|Fruit_LOD3|GlobularPlant_1_BigSphere001|Take 001|Bas
+  - first:
+      74: -5153164402276755234
+    second: Fruit_LOD1|Fruit_LOD3|Fruit_LOD3|GlobularPlant_1_BigSphere|Take 001|BaseLa
+  - first:
+      74: -2680188027497257753
+    second: Fruit_LOD1|Fruit_LOD3|Fruit_LOD3|GlobularPlant_1_SmallSphere|Take 001|Base
+  - first:
+      74: -6676974079740860032
+    second: Fruit_LOD1|Fruit_LOD3|Fruit_LOD3|GlobularPlant_3_Big001|Take 001|BaseLayer
+  - first:
+      74: -5155136957033135561
+    second: Fruit_LOD1|Fruit_LOD3|Fruit_LOD3|GlobularPlant_3_Big|Take 001|BaseLayer|Fr
+  - first:
+      74: 2243066341399970690
+    second: Fruit_LOD1|Fruit_LOD3|Fruit_LOD3|GlobularPlant_3_Mid006|Take 001|BaseLayer
+  - first:
+      74: 7565996777392708204
+    second: Fruit_LOD1|Fruit_LOD3|Fruit_LOD3|GlobularPlant_3_Mid1|Take 001|BaseLayer|F
+  - first:
+      74: -1787403861965446079
+    second: Fruit_LOD1|Fruit_LOD3|Fruit_LOD3|GlobularPlant_3_Mid2|Take 001|BaseLayer|F
+  - first:
+      74: 3751582698390013926
+    second: Fruit_LOD1|Fruit_LOD3|Fruit_LOD3|GlobularPlant_3_Small|Take 001|BaseLayer|
+  - first:
+      74: 6129451093918036591
+    second: Fruit_LOD1|Fruit_LOD3|Fruit_LOD3|GlobularPlant_4|Take 001|BaseLayer|Fruit_
+  - first:
+      74: -5372602992673714744
+    second: Fruit_LOD1|Fruit_LOD3|Fruit_LOD3|GlobularPlant_5|Take 001|BaseLayer|Fruit_
+  - first:
+      74: -6097330067543580437
+    second: Fruit_LOD1|Fruit_LOD3|Fruit_LOD3|GlobularPlant_6|Take 001|BaseLayer.001|Fr
+  - first:
+      74: 3045302187313780941
+    second: Fruit_LOD1|Fruit_LOD3|Fruit_LOD3|GlobularPlant_6|Take 001|BaseLayer.002|Fr
+  - first:
+      74: 6351719707919042481
+    second: Fruit_LOD1|Fruit_LOD3|Fruit_LOD3|GlobularPlant_6|Take 001|BaseLayer.003|Fr
+  - first:
+      74: 3083602443682742179
+    second: Fruit_LOD1|Fruit_LOD3|Fruit_LOD3|GlobularPlant_6|Take 001|BaseLayer|Fruit_
+  - first:
+      74: 5754827788984420225
+    second: Fruit_LOD1|Fruit_LOD3|Fruit_LOD3|GlobularPlant_7_Big001|Take 001|BaseLayer
+  - first:
+      74: 832235492742211412
+    second: Fruit_LOD1|Fruit_LOD3|Fruit_LOD3|GlobularPlant_7_Big002|Take 001|BaseLayer
+  - first:
+      74: -2583724643046759426
+    second: Fruit_LOD1|Fruit_LOD3|Fruit_LOD3|GlobularPlant_7_Big|Take 001|BaseLayer|Fr
+  - first:
+      74: -736004783458850771
+    second: Fruit_LOD1|Fruit_LOD3|Fruit_LOD3|GlobularPlant_7_Small|Take 001|BaseLayer|
+  - first:
+      74: -7555929091358144457
+    second: Fruit_LOD1|Fruit_LOD3|Fruit_LOD3|GlobularPlant_8_Sheet004|Take 001|BaseLay
+  - first:
+      74: -4395401601114142658
+    second: Fruit_LOD1|Fruit_LOD3|Fruit_LOD3|GlobularPlant_8_Sheet006|Take 001|BaseLay
+  - first:
+      74: 9190104206286131777
+    second: Fruit_LOD1|Fruit_LOD3|Fruit_LOD3|GlobularPlant_8_Sheet010|Take 001|BaseLay
+  - first:
+      74: -5160738618222970744
+    second: Fruit_LOD1|Fruit_LOD3|Fruit_LOD3|GlobularPlant_8_Sheet015|Take 001|BaseLay
+  - first:
+      74: -253684837332223803
+    second: Fruit_LOD1|Fruit_LOD3|Fruit_LOD3|GlobularPlant_8_Sheet|Take 001|BaseLayer|
+  - first:
+      74: -1582320792876926047
+    second: Fruit_LOD1|Fruit_LOD3|Fruit_LOD3|GlobularPlant_9_Big001|Take 001|BaseLayer
+  - first:
+      74: 9169743894298275508
+    second: Fruit_LOD1|Fruit_LOD3|Fruit_LOD3|GlobularPlant_9_Big004|Take 001|BaseLayer
+  - first:
+      74: 7724096716369914459
+    second: Fruit_LOD1|Fruit_LOD3|Fruit_LOD3|GlobularPlant_9_Big008|Take 001|BaseLayer
+  - first:
+      74: -9135351264210537941
+    second: Fruit_LOD1|Fruit_LOD3|Fruit_LOD3|GlobularPlant_9_Big|Take 001|BaseLayer|Fr
+  - first:
+      74: -2372294694654368204
+    second: Fruit_LOD1|Fruit_LOD3|Fruit_LOD3|GlobularPlant_9_Small|Take 001|BaseLayer|
+  - first:
+      74: -3212070314203675982
+    second: Fruit_LOD2|Fruit_LOD0|Fruit_LOD0|GlobularPlant_011|Take 001|BaseLayer|Frui
+  - first:
+      74: 6384234729163919780
+    second: Fruit_LOD2|Fruit_LOD0|Fruit_LOD0|GlobularPlant_016|Take 001|BaseLayer|Frui
+  - first:
+      74: 8778610662159590592
+    second: Fruit_LOD2|Fruit_LOD0|Fruit_LOD0|GlobularPlant_017|Take 001|BaseLayer|Frui
+  - first:
+      74: -3535183427857602036
+    second: Fruit_LOD2|Fruit_LOD0|Fruit_LOD0|GlobularPlant_018|Take 001|BaseLayer|Frui
+  - first:
+      74: -1558324994420725344
+    second: Fruit_LOD2|Fruit_LOD0|Fruit_LOD0|GlobularPlant_10|Take 001|BaseLayer|Fruit
+  - first:
+      74: 5047276512057381668
+    second: Fruit_LOD2|Fruit_LOD0|Fruit_LOD0|GlobularPlant_1_BigSphere001|Take 001|Bas
+  - first:
+      74: 8666596792917431069
+    second: Fruit_LOD2|Fruit_LOD0|Fruit_LOD0|GlobularPlant_1_BigSphere|Take 001|BaseLa
+  - first:
+      74: -7482025839031020602
+    second: Fruit_LOD2|Fruit_LOD0|Fruit_LOD0|GlobularPlant_1_SmallSphere|Take 001|Base
+  - first:
+      74: -3819820602107345657
+    second: Fruit_LOD2|Fruit_LOD0|Fruit_LOD0|GlobularPlant_3_Big001|Take 001|BaseLayer
+  - first:
+      74: 2684557034644543761
+    second: Fruit_LOD2|Fruit_LOD0|Fruit_LOD0|GlobularPlant_3_Big|Take 001|BaseLayer|Fr
+  - first:
+      74: -5384062858576821240
+    second: Fruit_LOD2|Fruit_LOD0|Fruit_LOD0|GlobularPlant_3_Mid006|Take 001|BaseLayer
+  - first:
+      74: 1491074355664145847
+    second: Fruit_LOD2|Fruit_LOD0|Fruit_LOD0|GlobularPlant_3_Mid1|Take 001|BaseLayer|F
+  - first:
+      74: 7240147109312777792
+    second: Fruit_LOD2|Fruit_LOD0|Fruit_LOD0|GlobularPlant_3_Mid2|Take 001|BaseLayer|F
+  - first:
+      74: 6287469466966638207
+    second: Fruit_LOD2|Fruit_LOD0|Fruit_LOD0|GlobularPlant_3_Small|Take 001|BaseLayer|
+  - first:
+      74: -184619655328492211
+    second: Fruit_LOD2|Fruit_LOD0|Fruit_LOD0|GlobularPlant_4|Take 001|BaseLayer|Fruit_
+  - first:
+      74: 4691698665666481459
+    second: Fruit_LOD2|Fruit_LOD0|Fruit_LOD0|GlobularPlant_5|Take 001|BaseLayer|Fruit_
+  - first:
+      74: -5223948635924322421
+    second: Fruit_LOD2|Fruit_LOD0|Fruit_LOD0|GlobularPlant_6|Take 001|BaseLayer.001|Fr
+  - first:
+      74: 7822800742468093573
+    second: Fruit_LOD2|Fruit_LOD0|Fruit_LOD0|GlobularPlant_6|Take 001|BaseLayer.002|Fr
+  - first:
+      74: -6820016566579218957
+    second: Fruit_LOD2|Fruit_LOD0|Fruit_LOD0|GlobularPlant_6|Take 001|BaseLayer.003|Fr
+  - first:
+      74: 7707616785553842314
+    second: Fruit_LOD2|Fruit_LOD0|Fruit_LOD0|GlobularPlant_6|Take 001|BaseLayer|Fruit_
+  - first:
+      74: -5797266322754430602
+    second: Fruit_LOD2|Fruit_LOD0|Fruit_LOD0|GlobularPlant_7_Big001|Take 001|BaseLayer
+  - first:
+      74: -972539663728949199
+    second: Fruit_LOD2|Fruit_LOD0|Fruit_LOD0|GlobularPlant_7_Big002|Take 001|BaseLayer
+  - first:
+      74: 4590897252497638627
+    second: Fruit_LOD2|Fruit_LOD0|Fruit_LOD0|GlobularPlant_7_Big|Take 001|BaseLayer|Fr
+  - first:
+      74: 2659755446340968348
+    second: Fruit_LOD2|Fruit_LOD0|Fruit_LOD0|GlobularPlant_7_Small|Take 001|BaseLayer|
+  - first:
+      74: -3642863442316884856
+    second: Fruit_LOD2|Fruit_LOD0|Fruit_LOD0|GlobularPlant_8_Sheet004|Take 001|BaseLay
+  - first:
+      74: -6929783388959449780
+    second: Fruit_LOD2|Fruit_LOD0|Fruit_LOD0|GlobularPlant_8_Sheet006|Take 001|BaseLay
+  - first:
+      74: -2129329799649428406
+    second: Fruit_LOD2|Fruit_LOD0|Fruit_LOD0|GlobularPlant_8_Sheet010|Take 001|BaseLay
+  - first:
+      74: 1275368153104637888
+    second: Fruit_LOD2|Fruit_LOD0|Fruit_LOD0|GlobularPlant_8_Sheet015|Take 001|BaseLay
+  - first:
+      74: 3578743634825528545
+    second: Fruit_LOD2|Fruit_LOD0|Fruit_LOD0|GlobularPlant_8_Sheet|Take 001|BaseLayer|
+  - first:
+      74: 6103693739752538618
+    second: Fruit_LOD2|Fruit_LOD0|Fruit_LOD0|GlobularPlant_9_Big001|Take 001|BaseLayer
+  - first:
+      74: -7943157561831651169
+    second: Fruit_LOD2|Fruit_LOD0|Fruit_LOD0|GlobularPlant_9_Big004|Take 001|BaseLayer
+  - first:
+      74: -2444459822696714930
+    second: Fruit_LOD2|Fruit_LOD0|Fruit_LOD0|GlobularPlant_9_Big008|Take 001|BaseLayer
+  - first:
+      74: -7500847042497069213
+    second: Fruit_LOD2|Fruit_LOD0|Fruit_LOD0|GlobularPlant_9_Big|Take 001|BaseLayer|Fr
+  - first:
+      74: -142578502244117656
+    second: Fruit_LOD2|Fruit_LOD0|Fruit_LOD0|GlobularPlant_9_Small|Take 001|BaseLayer|
+  - first:
+      74: -4520294542859341066
+    second: Fruit_LOD2|Fruit_LOD1|Fruit_LOD1|GlobularPlant_011|Take 001|BaseLayer|Frui
+  - first:
+      74: 8865085006449898514
+    second: Fruit_LOD2|Fruit_LOD1|Fruit_LOD1|GlobularPlant_016|Take 001|BaseLayer|Frui
+  - first:
+      74: 1983450430869948451
+    second: Fruit_LOD2|Fruit_LOD1|Fruit_LOD1|GlobularPlant_017|Take 001|BaseLayer|Frui
+  - first:
+      74: 8589087088590934776
+    second: Fruit_LOD2|Fruit_LOD1|Fruit_LOD1|GlobularPlant_018|Take 001|BaseLayer|Frui
+  - first:
+      74: -7942580241712359395
+    second: Fruit_LOD2|Fruit_LOD1|Fruit_LOD1|GlobularPlant_10|Take 001|BaseLayer|Fruit
+  - first:
+      74: -7471685285590782228
+    second: Fruit_LOD2|Fruit_LOD1|Fruit_LOD1|GlobularPlant_1_BigSphere001|Take 001|Bas
+  - first:
+      74: -2569830903033759484
+    second: Fruit_LOD2|Fruit_LOD1|Fruit_LOD1|GlobularPlant_1_BigSphere|Take 001|BaseLa
+  - first:
+      74: -7118901772943342094
+    second: Fruit_LOD2|Fruit_LOD1|Fruit_LOD1|GlobularPlant_1_SmallSphere|Take 001|Base
+  - first:
+      74: 580183030864844030
+    second: Fruit_LOD2|Fruit_LOD1|Fruit_LOD1|GlobularPlant_3_Big001|Take 001|BaseLayer
+  - first:
+      74: -4808576564548613394
+    second: Fruit_LOD2|Fruit_LOD1|Fruit_LOD1|GlobularPlant_3_Big|Take 001|BaseLayer|Fr
+  - first:
+      74: -8759292938165111237
+    second: Fruit_LOD2|Fruit_LOD1|Fruit_LOD1|GlobularPlant_3_Mid006|Take 001|BaseLayer
+  - first:
+      74: -1366135309909869902
+    second: Fruit_LOD2|Fruit_LOD1|Fruit_LOD1|GlobularPlant_3_Mid1|Take 001|BaseLayer|F
+  - first:
+      74: 8056119542604831239
+    second: Fruit_LOD2|Fruit_LOD1|Fruit_LOD1|GlobularPlant_3_Mid2|Take 001|BaseLayer|F
+  - first:
+      74: -5545482972120252060
+    second: Fruit_LOD2|Fruit_LOD1|Fruit_LOD1|GlobularPlant_3_Small|Take 001|BaseLayer|
+  - first:
+      74: -6129537467552389908
+    second: Fruit_LOD2|Fruit_LOD1|Fruit_LOD1|GlobularPlant_4|Take 001|BaseLayer|Fruit_
+  - first:
+      74: 8907335669952564785
+    second: Fruit_LOD2|Fruit_LOD1|Fruit_LOD1|GlobularPlant_5|Take 001|BaseLayer|Fruit_
+  - first:
+      74: -7197178271599038497
+    second: Fruit_LOD2|Fruit_LOD1|Fruit_LOD1|GlobularPlant_6|Take 001|BaseLayer.001|Fr
+  - first:
+      74: 2599261463484946727
+    second: Fruit_LOD2|Fruit_LOD1|Fruit_LOD1|GlobularPlant_6|Take 001|BaseLayer.002|Fr
+  - first:
+      74: -7369822215096387103
+    second: Fruit_LOD2|Fruit_LOD1|Fruit_LOD1|GlobularPlant_6|Take 001|BaseLayer.003|Fr
+  - first:
+      74: -2548104566907602462
+    second: Fruit_LOD2|Fruit_LOD1|Fruit_LOD1|GlobularPlant_6|Take 001|BaseLayer|Fruit_
+  - first:
+      74: 8748634657146274567
+    second: Fruit_LOD2|Fruit_LOD1|Fruit_LOD1|GlobularPlant_7_Big001|Take 001|BaseLayer
+  - first:
+      74: -4339487733253197432
+    second: Fruit_LOD2|Fruit_LOD1|Fruit_LOD1|GlobularPlant_7_Big002|Take 001|BaseLayer
+  - first:
+      74: 610417838036548844
+    second: Fruit_LOD2|Fruit_LOD1|Fruit_LOD1|GlobularPlant_7_Big|Take 001|BaseLayer|Fr
+  - first:
+      74: 101060045443658254
+    second: Fruit_LOD2|Fruit_LOD1|Fruit_LOD1|GlobularPlant_7_Small|Take 001|BaseLayer|
+  - first:
+      74: -50149698980672570
+    second: Fruit_LOD2|Fruit_LOD1|Fruit_LOD1|GlobularPlant_8_Sheet004|Take 001|BaseLay
+  - first:
+      74: 3736584789037849306
+    second: Fruit_LOD2|Fruit_LOD1|Fruit_LOD1|GlobularPlant_8_Sheet006|Take 001|BaseLay
+  - first:
+      74: -3813659588035314912
+    second: Fruit_LOD2|Fruit_LOD1|Fruit_LOD1|GlobularPlant_8_Sheet010|Take 001|BaseLay
+  - first:
+      74: -5068547031651674243
+    second: Fruit_LOD2|Fruit_LOD1|Fruit_LOD1|GlobularPlant_8_Sheet015|Take 001|BaseLay
+  - first:
+      74: 343644941639848754
+    second: Fruit_LOD2|Fruit_LOD1|Fruit_LOD1|GlobularPlant_8_Sheet|Take 001|BaseLayer|
+  - first:
+      74: -1722720229725038559
+    second: Fruit_LOD2|Fruit_LOD1|Fruit_LOD1|GlobularPlant_9_Big001|Take 001|BaseLayer
+  - first:
+      74: -7515376703945366522
+    second: Fruit_LOD2|Fruit_LOD1|Fruit_LOD1|GlobularPlant_9_Big004|Take 001|BaseLayer
+  - first:
+      74: -7320922318310968266
+    second: Fruit_LOD2|Fruit_LOD1|Fruit_LOD1|GlobularPlant_9_Big008|Take 001|BaseLayer
+  - first:
+      74: -3867402136190341841
+    second: Fruit_LOD2|Fruit_LOD1|Fruit_LOD1|GlobularPlant_9_Big|Take 001|BaseLayer|Fr
+  - first:
+      74: -3758508783876991004
+    second: Fruit_LOD2|Fruit_LOD1|Fruit_LOD1|GlobularPlant_9_Small|Take 001|BaseLayer|
+  - first:
+      74: -5443573391427554501
+    second: Fruit_LOD2|Fruit_LOD2|Fruit_LOD2|GlobularPlant_011|Take 001|BaseLayer|Frui
+  - first:
+      74: 4083376380270870281
+    second: Fruit_LOD2|Fruit_LOD2|Fruit_LOD2|GlobularPlant_016|Take 001|BaseLayer|Frui
+  - first:
+      74: -3268367569156261094
+    second: Fruit_LOD2|Fruit_LOD2|Fruit_LOD2|GlobularPlant_017|Take 001|BaseLayer|Frui
+  - first:
+      74: 5538826355413679170
+    second: Fruit_LOD2|Fruit_LOD2|Fruit_LOD2|GlobularPlant_018|Take 001|BaseLayer|Frui
+  - first:
+      74: -4585467342903679126
+    second: Fruit_LOD2|Fruit_LOD2|Fruit_LOD2|GlobularPlant_10|Take 001|BaseLayer|Fruit
+  - first:
+      74: 3679527003264601793
+    second: Fruit_LOD2|Fruit_LOD2|Fruit_LOD2|GlobularPlant_1_BigSphere001|Take 001|Bas
+  - first:
+      74: -6436911420519206587
+    second: Fruit_LOD2|Fruit_LOD2|Fruit_LOD2|GlobularPlant_1_BigSphere|Take 001|BaseLa
+  - first:
+      74: 1093578759048314556
+    second: Fruit_LOD2|Fruit_LOD2|Fruit_LOD2|GlobularPlant_1_SmallSphere|Take 001|Base
+  - first:
+      74: 1560326030449524580
+    second: Fruit_LOD2|Fruit_LOD2|Fruit_LOD2|GlobularPlant_3_Big001|Take 001|BaseLayer
+  - first:
+      74: -367643150824853249
+    second: Fruit_LOD2|Fruit_LOD2|Fruit_LOD2|GlobularPlant_3_Big|Take 001|BaseLayer|Fr
+  - first:
+      74: -2667795176110001983
+    second: Fruit_LOD2|Fruit_LOD2|Fruit_LOD2|GlobularPlant_3_Mid006|Take 001|BaseLayer
+  - first:
+      74: 2310583013163494105
+    second: Fruit_LOD2|Fruit_LOD2|Fruit_LOD2|GlobularPlant_3_Mid1|Take 001|BaseLayer|F
+  - first:
+      74: 913946958477330764
+    second: Fruit_LOD2|Fruit_LOD2|Fruit_LOD2|GlobularPlant_3_Mid2|Take 001|BaseLayer|F
+  - first:
+      74: 3639842561004691682
+    second: Fruit_LOD2|Fruit_LOD2|Fruit_LOD2|GlobularPlant_3_Small|Take 001|BaseLayer|
+  - first:
+      74: 6864020450480930453
+    second: Fruit_LOD2|Fruit_LOD2|Fruit_LOD2|GlobularPlant_4|Take 001|BaseLayer|Fruit_
+  - first:
+      74: 2788673484233017664
+    second: Fruit_LOD2|Fruit_LOD2|Fruit_LOD2|GlobularPlant_5|Take 001|BaseLayer|Fruit_
+  - first:
+      74: -1213904982915258604
+    second: Fruit_LOD2|Fruit_LOD2|Fruit_LOD2|GlobularPlant_6|Take 001|BaseLayer.001|Fr
+  - first:
+      74: -4557454083096697166
+    second: Fruit_LOD2|Fruit_LOD2|Fruit_LOD2|GlobularPlant_6|Take 001|BaseLayer.002|Fr
+  - first:
+      74: 7800789325713266407
+    second: Fruit_LOD2|Fruit_LOD2|Fruit_LOD2|GlobularPlant_6|Take 001|BaseLayer.003|Fr
+  - first:
+      74: 6065207751479615607
+    second: Fruit_LOD2|Fruit_LOD2|Fruit_LOD2|GlobularPlant_6|Take 001|BaseLayer|Fruit_
+  - first:
+      74: 8344829251867177384
+    second: Fruit_LOD2|Fruit_LOD2|Fruit_LOD2|GlobularPlant_7_Big001|Take 001|BaseLayer
+  - first:
+      74: 8324640866449003683
+    second: Fruit_LOD2|Fruit_LOD2|Fruit_LOD2|GlobularPlant_7_Big002|Take 001|BaseLayer
+  - first:
+      74: 8351078752058859522
+    second: Fruit_LOD2|Fruit_LOD2|Fruit_LOD2|GlobularPlant_7_Big|Take 001|BaseLayer|Fr
+  - first:
+      74: 5499240347373278678
+    second: Fruit_LOD2|Fruit_LOD2|Fruit_LOD2|GlobularPlant_7_Small|Take 001|BaseLayer|
+  - first:
+      74: 5911687695697390867
+    second: Fruit_LOD2|Fruit_LOD2|Fruit_LOD2|GlobularPlant_8_Sheet004|Take 001|BaseLay
+  - first:
+      74: 8792527210639325514
+    second: Fruit_LOD2|Fruit_LOD2|Fruit_LOD2|GlobularPlant_8_Sheet006|Take 001|BaseLay
+  - first:
+      74: 3600322337475732191
+    second: Fruit_LOD2|Fruit_LOD2|Fruit_LOD2|GlobularPlant_8_Sheet010|Take 001|BaseLay
+  - first:
+      74: -6051303140625484475
+    second: Fruit_LOD2|Fruit_LOD2|Fruit_LOD2|GlobularPlant_8_Sheet015|Take 001|BaseLay
+  - first:
+      74: 4718384746177592419
+    second: Fruit_LOD2|Fruit_LOD2|Fruit_LOD2|GlobularPlant_8_Sheet|Take 001|BaseLayer|
+  - first:
+      74: -2115914170386083433
+    second: Fruit_LOD2|Fruit_LOD2|Fruit_LOD2|GlobularPlant_9_Big001|Take 001|BaseLayer
+  - first:
+      74: 3523200003021084327
+    second: Fruit_LOD2|Fruit_LOD2|Fruit_LOD2|GlobularPlant_9_Big004|Take 001|BaseLayer
+  - first:
+      74: -6422263858401022323
+    second: Fruit_LOD2|Fruit_LOD2|Fruit_LOD2|GlobularPlant_9_Big008|Take 001|BaseLayer
+  - first:
+      74: -4645334694294561084
+    second: Fruit_LOD2|Fruit_LOD2|Fruit_LOD2|GlobularPlant_9_Big|Take 001|BaseLayer|Fr
+  - first:
+      74: 8086408737474646448
+    second: Fruit_LOD2|Fruit_LOD2|Fruit_LOD2|GlobularPlant_9_Small|Take 001|BaseLayer|
+  - first:
+      74: -8162630651789546973
+    second: Fruit_LOD2|Fruit_LOD3|Fruit_LOD3|GlobularPlant_011|Take 001|BaseLayer|Frui
+  - first:
+      74: 8142537399177250563
+    second: Fruit_LOD2|Fruit_LOD3|Fruit_LOD3|GlobularPlant_016|Take 001|BaseLayer|Frui
+  - first:
+      74: -9153710944746375733
+    second: Fruit_LOD2|Fruit_LOD3|Fruit_LOD3|GlobularPlant_017|Take 001|BaseLayer|Frui
+  - first:
+      74: 864405279790422555
+    second: Fruit_LOD2|Fruit_LOD3|Fruit_LOD3|GlobularPlant_018|Take 001|BaseLayer|Frui
+  - first:
+      74: 4625763950004397035
+    second: Fruit_LOD2|Fruit_LOD3|Fruit_LOD3|GlobularPlant_10|Take 001|BaseLayer|Fruit
+  - first:
+      74: -2013005603540333942
+    second: Fruit_LOD2|Fruit_LOD3|Fruit_LOD3|GlobularPlant_1_BigSphere001|Take 001|Bas
+  - first:
+      74: 1584627923614166851
+    second: Fruit_LOD2|Fruit_LOD3|Fruit_LOD3|GlobularPlant_1_BigSphere|Take 001|BaseLa
+  - first:
+      74: -4542021990480335889
+    second: Fruit_LOD2|Fruit_LOD3|Fruit_LOD3|GlobularPlant_1_SmallSphere|Take 001|Base
+  - first:
+      74: 5607803352799935002
+    second: Fruit_LOD2|Fruit_LOD3|Fruit_LOD3|GlobularPlant_3_Big001|Take 001|BaseLayer
+  - first:
+      74: 8108417502775286202
+    second: Fruit_LOD2|Fruit_LOD3|Fruit_LOD3|GlobularPlant_3_Big|Take 001|BaseLayer|Fr
+  - first:
+      74: -7223880609301161974
+    second: Fruit_LOD2|Fruit_LOD3|Fruit_LOD3|GlobularPlant_3_Mid006|Take 001|BaseLayer
+  - first:
+      74: 8590637457513801364
+    second: Fruit_LOD2|Fruit_LOD3|Fruit_LOD3|GlobularPlant_3_Mid1|Take 001|BaseLayer|F
+  - first:
+      74: 9658963687636810
+    second: Fruit_LOD2|Fruit_LOD3|Fruit_LOD3|GlobularPlant_3_Mid2|Take 001|BaseLayer|F
+  - first:
+      74: -1648762392357156917
+    second: Fruit_LOD2|Fruit_LOD3|Fruit_LOD3|GlobularPlant_3_Small|Take 001|BaseLayer|
+  - first:
+      74: -800657459805962408
+    second: Fruit_LOD2|Fruit_LOD3|Fruit_LOD3|GlobularPlant_4|Take 001|BaseLayer|Fruit_
+  - first:
+      74: 863277593620765989
+    second: Fruit_LOD2|Fruit_LOD3|Fruit_LOD3|GlobularPlant_5|Take 001|BaseLayer|Fruit_
+  - first:
+      74: -2701864990051536190
+    second: Fruit_LOD2|Fruit_LOD3|Fruit_LOD3|GlobularPlant_6|Take 001|BaseLayer.001|Fr
+  - first:
+      74: -4357097228440837848
+    second: Fruit_LOD2|Fruit_LOD3|Fruit_LOD3|GlobularPlant_6|Take 001|BaseLayer.002|Fr
+  - first:
+      74: -1039620437690594972
+    second: Fruit_LOD2|Fruit_LOD3|Fruit_LOD3|GlobularPlant_6|Take 001|BaseLayer.003|Fr
+  - first:
+      74: -4701777815401658891
+    second: Fruit_LOD2|Fruit_LOD3|Fruit_LOD3|GlobularPlant_6|Take 001|BaseLayer|Fruit_
+  - first:
+      74: 1650026206612880244
+    second: Fruit_LOD2|Fruit_LOD3|Fruit_LOD3|GlobularPlant_7_Big001|Take 001|BaseLayer
+  - first:
+      74: -2731253175556966089
+    second: Fruit_LOD2|Fruit_LOD3|Fruit_LOD3|GlobularPlant_7_Big002|Take 001|BaseLayer
+  - first:
+      74: 816575667516486027
+    second: Fruit_LOD2|Fruit_LOD3|Fruit_LOD3|GlobularPlant_7_Big|Take 001|BaseLayer|Fr
+  - first:
+      74: 7609210534976581883
+    second: Fruit_LOD2|Fruit_LOD3|Fruit_LOD3|GlobularPlant_7_Small|Take 001|BaseLayer|
+  - first:
+      74: 4180462222201256946
+    second: Fruit_LOD2|Fruit_LOD3|Fruit_LOD3|GlobularPlant_8_Sheet004|Take 001|BaseLay
+  - first:
+      74: -928375524055792342
+    second: Fruit_LOD2|Fruit_LOD3|Fruit_LOD3|GlobularPlant_8_Sheet006|Take 001|BaseLay
+  - first:
+      74: 570441907765083845
+    second: Fruit_LOD2|Fruit_LOD3|Fruit_LOD3|GlobularPlant_8_Sheet010|Take 001|BaseLay
+  - first:
+      74: 3689104602531376297
+    second: Fruit_LOD2|Fruit_LOD3|Fruit_LOD3|GlobularPlant_8_Sheet015|Take 001|BaseLay
+  - first:
+      74: 3645079924658269206
+    second: Fruit_LOD2|Fruit_LOD3|Fruit_LOD3|GlobularPlant_8_Sheet|Take 001|BaseLayer|
+  - first:
+      74: -7854537873750520339
+    second: Fruit_LOD2|Fruit_LOD3|Fruit_LOD3|GlobularPlant_9_Big001|Take 001|BaseLayer
+  - first:
+      74: -8128924162320924286
+    second: Fruit_LOD2|Fruit_LOD3|Fruit_LOD3|GlobularPlant_9_Big004|Take 001|BaseLayer
+  - first:
+      74: -486376913166191559
+    second: Fruit_LOD2|Fruit_LOD3|Fruit_LOD3|GlobularPlant_9_Big008|Take 001|BaseLayer
+  - first:
+      74: 3271169895573769460
+    second: Fruit_LOD2|Fruit_LOD3|Fruit_LOD3|GlobularPlant_9_Big|Take 001|BaseLayer|Fr
+  - first:
+      74: 660432396944906272
+    second: Fruit_LOD2|Fruit_LOD3|Fruit_LOD3|GlobularPlant_9_Small|Take 001|BaseLayer|
+  - first:
+      74: 7927876857652454805
+    second: Fruit_LOD3|Fruit_LOD0|Fruit_LOD0|GlobularPlant_011|Take 001|BaseLayer|Frui
+  - first:
+      74: 8530181809458107321
+    second: Fruit_LOD3|Fruit_LOD0|Fruit_LOD0|GlobularPlant_016|Take 001|BaseLayer|Frui
+  - first:
+      74: 3253981341709137032
+    second: Fruit_LOD3|Fruit_LOD0|Fruit_LOD0|GlobularPlant_017|Take 001|BaseLayer|Frui
+  - first:
+      74: -1006628619556188970
+    second: Fruit_LOD3|Fruit_LOD0|Fruit_LOD0|GlobularPlant_018|Take 001|BaseLayer|Frui
+  - first:
+      74: 2350313092783969077
+    second: Fruit_LOD3|Fruit_LOD0|Fruit_LOD0|GlobularPlant_10|Take 001|BaseLayer|Fruit
+  - first:
+      74: -6035444101245711524
+    second: Fruit_LOD3|Fruit_LOD0|Fruit_LOD0|GlobularPlant_1_BigSphere001|Take 001|Bas
+  - first:
+      74: -4868933814200187085
+    second: Fruit_LOD3|Fruit_LOD0|Fruit_LOD0|GlobularPlant_1_BigSphere|Take 001|BaseLa
+  - first:
+      74: -7518838244379051717
+    second: Fruit_LOD3|Fruit_LOD0|Fruit_LOD0|GlobularPlant_1_SmallSphere|Take 001|Base
+  - first:
+      74: 2141087879962176073
+    second: Fruit_LOD3|Fruit_LOD0|Fruit_LOD0|GlobularPlant_3_Big001|Take 001|BaseLayer
+  - first:
+      74: 6215324098125891304
+    second: Fruit_LOD3|Fruit_LOD0|Fruit_LOD0|GlobularPlant_3_Big|Take 001|BaseLayer|Fr
+  - first:
+      74: -5351541369028899400
+    second: Fruit_LOD3|Fruit_LOD0|Fruit_LOD0|GlobularPlant_3_Mid006|Take 001|BaseLayer
+  - first:
+      74: 3183091335634191103
+    second: Fruit_LOD3|Fruit_LOD0|Fruit_LOD0|GlobularPlant_3_Mid1|Take 001|BaseLayer|F
+  - first:
+      74: 9106326285168280513
+    second: Fruit_LOD3|Fruit_LOD0|Fruit_LOD0|GlobularPlant_3_Mid2|Take 001|BaseLayer|F
+  - first:
+      74: -1833760225891588727
+    second: Fruit_LOD3|Fruit_LOD0|Fruit_LOD0|GlobularPlant_3_Small|Take 001|BaseLayer|
+  - first:
+      74: -4018154350679722134
+    second: Fruit_LOD3|Fruit_LOD0|Fruit_LOD0|GlobularPlant_4|Take 001|BaseLayer|Fruit_
+  - first:
+      74: -8620495576351735117
+    second: Fruit_LOD3|Fruit_LOD0|Fruit_LOD0|GlobularPlant_5|Take 001|BaseLayer|Fruit_
+  - first:
+      74: 516393590820364249
+    second: Fruit_LOD3|Fruit_LOD0|Fruit_LOD0|GlobularPlant_6|Take 001|BaseLayer.001|Fr
+  - first:
+      74: 3495571152130614044
+    second: Fruit_LOD3|Fruit_LOD0|Fruit_LOD0|GlobularPlant_6|Take 001|BaseLayer.002|Fr
+  - first:
+      74: -217979072183024030
+    second: Fruit_LOD3|Fruit_LOD0|Fruit_LOD0|GlobularPlant_6|Take 001|BaseLayer.003|Fr
+  - first:
+      74: -6597800343531961694
+    second: Fruit_LOD3|Fruit_LOD0|Fruit_LOD0|GlobularPlant_6|Take 001|BaseLayer|Fruit_
+  - first:
+      74: 3729965613918934113
+    second: Fruit_LOD3|Fruit_LOD0|Fruit_LOD0|GlobularPlant_7_Big001|Take 001|BaseLayer
+  - first:
+      74: -2396991149767092370
+    second: Fruit_LOD3|Fruit_LOD0|Fruit_LOD0|GlobularPlant_7_Big002|Take 001|BaseLayer
+  - first:
+      74: 2789725055989168422
+    second: Fruit_LOD3|Fruit_LOD0|Fruit_LOD0|GlobularPlant_7_Big|Take 001|BaseLayer|Fr
+  - first:
+      74: 8981540859780877315
+    second: Fruit_LOD3|Fruit_LOD0|Fruit_LOD0|GlobularPlant_7_Small|Take 001|BaseLayer|
+  - first:
+      74: 3599644329983546639
+    second: Fruit_LOD3|Fruit_LOD0|Fruit_LOD0|GlobularPlant_8_Sheet004|Take 001|BaseLay
+  - first:
+      74: 6653518721702257141
+    second: Fruit_LOD3|Fruit_LOD0|Fruit_LOD0|GlobularPlant_8_Sheet006|Take 001|BaseLay
+  - first:
+      74: 5129075621700607308
+    second: Fruit_LOD3|Fruit_LOD0|Fruit_LOD0|GlobularPlant_8_Sheet010|Take 001|BaseLay
+  - first:
+      74: -3114786263516389537
+    second: Fruit_LOD3|Fruit_LOD0|Fruit_LOD0|GlobularPlant_8_Sheet015|Take 001|BaseLay
+  - first:
+      74: 7660336330025872734
+    second: Fruit_LOD3|Fruit_LOD0|Fruit_LOD0|GlobularPlant_8_Sheet|Take 001|BaseLayer|
+  - first:
+      74: 2248330404141220413
+    second: Fruit_LOD3|Fruit_LOD0|Fruit_LOD0|GlobularPlant_9_Big001|Take 001|BaseLayer
+  - first:
+      74: 5156031847485533284
+    second: Fruit_LOD3|Fruit_LOD0|Fruit_LOD0|GlobularPlant_9_Big004|Take 001|BaseLayer
+  - first:
+      74: 5263944255702846523
+    second: Fruit_LOD3|Fruit_LOD0|Fruit_LOD0|GlobularPlant_9_Big008|Take 001|BaseLayer
+  - first:
+      74: 489948326106733939
+    second: Fruit_LOD3|Fruit_LOD0|Fruit_LOD0|GlobularPlant_9_Big|Take 001|BaseLayer|Fr
+  - first:
+      74: -3762017360585918024
+    second: Fruit_LOD3|Fruit_LOD0|Fruit_LOD0|GlobularPlant_9_Small|Take 001|BaseLayer|
+  - first:
+      74: -8360055002550110746
+    second: Fruit_LOD3|Fruit_LOD1|Fruit_LOD1|GlobularPlant_011|Take 001|BaseLayer|Frui
+  - first:
+      74: 162611010417448198
+    second: Fruit_LOD3|Fruit_LOD1|Fruit_LOD1|GlobularPlant_016|Take 001|BaseLayer|Frui
+  - first:
+      74: -2769800340448006654
+    second: Fruit_LOD3|Fruit_LOD1|Fruit_LOD1|GlobularPlant_017|Take 001|BaseLayer|Frui
+  - first:
+      74: 1522357658659511534
+    second: Fruit_LOD3|Fruit_LOD1|Fruit_LOD1|GlobularPlant_018|Take 001|BaseLayer|Frui
+  - first:
+      74: -2908896926309732866
+    second: Fruit_LOD3|Fruit_LOD1|Fruit_LOD1|GlobularPlant_10|Take 001|BaseLayer|Fruit
+  - first:
+      74: -2927115497578810294
+    second: Fruit_LOD3|Fruit_LOD1|Fruit_LOD1|GlobularPlant_1_BigSphere001|Take 001|Bas
+  - first:
+      74: -6122296027474647403
+    second: Fruit_LOD3|Fruit_LOD1|Fruit_LOD1|GlobularPlant_1_BigSphere|Take 001|BaseLa
+  - first:
+      74: 5565035871024476891
+    second: Fruit_LOD3|Fruit_LOD1|Fruit_LOD1|GlobularPlant_1_SmallSphere|Take 001|Base
+  - first:
+      74: -8390628609273614079
+    second: Fruit_LOD3|Fruit_LOD1|Fruit_LOD1|GlobularPlant_3_Big001|Take 001|BaseLayer
+  - first:
+      74: 7781580509878095155
+    second: Fruit_LOD3|Fruit_LOD1|Fruit_LOD1|GlobularPlant_3_Big|Take 001|BaseLayer|Fr
+  - first:
+      74: -2424103908578426478
+    second: Fruit_LOD3|Fruit_LOD1|Fruit_LOD1|GlobularPlant_3_Mid006|Take 001|BaseLayer
+  - first:
+      74: 6106854794796487692
+    second: Fruit_LOD3|Fruit_LOD1|Fruit_LOD1|GlobularPlant_3_Mid1|Take 001|BaseLayer|F
+  - first:
+      74: -2980460885220086799
+    second: Fruit_LOD3|Fruit_LOD1|Fruit_LOD1|GlobularPlant_3_Mid2|Take 001|BaseLayer|F
+  - first:
+      74: -1033421843890488828
+    second: Fruit_LOD3|Fruit_LOD1|Fruit_LOD1|GlobularPlant_3_Small|Take 001|BaseLayer|
+  - first:
+      74: 3029923470910763442
+    second: Fruit_LOD3|Fruit_LOD1|Fruit_LOD1|GlobularPlant_4|Take 001|BaseLayer|Fruit_
+  - first:
+      74: 3488826006360983286
+    second: Fruit_LOD3|Fruit_LOD1|Fruit_LOD1|GlobularPlant_5|Take 001|BaseLayer|Fruit_
+  - first:
+      74: -6626421756194496802
+    second: Fruit_LOD3|Fruit_LOD1|Fruit_LOD1|GlobularPlant_6|Take 001|BaseLayer.001|Fr
+  - first:
+      74: 3673579964572584371
+    second: Fruit_LOD3|Fruit_LOD1|Fruit_LOD1|GlobularPlant_6|Take 001|BaseLayer.002|Fr
+  - first:
+      74: 1823607389814896925
+    second: Fruit_LOD3|Fruit_LOD1|Fruit_LOD1|GlobularPlant_6|Take 001|BaseLayer.003|Fr
+  - first:
+      74: 6136274368532278713
+    second: Fruit_LOD3|Fruit_LOD1|Fruit_LOD1|GlobularPlant_6|Take 001|BaseLayer|Fruit_
+  - first:
+      74: -1639746758086551039
+    second: Fruit_LOD3|Fruit_LOD1|Fruit_LOD1|GlobularPlant_7_Big001|Take 001|BaseLayer
+  - first:
+      74: 4118142752903302083
+    second: Fruit_LOD3|Fruit_LOD1|Fruit_LOD1|GlobularPlant_7_Big002|Take 001|BaseLayer
+  - first:
+      74: 1552671159747810023
+    second: Fruit_LOD3|Fruit_LOD1|Fruit_LOD1|GlobularPlant_7_Big|Take 001|BaseLayer|Fr
+  - first:
+      74: 702668263528710324
+    second: Fruit_LOD3|Fruit_LOD1|Fruit_LOD1|GlobularPlant_7_Small|Take 001|BaseLayer|
+  - first:
+      74: 155044140911637375
+    second: Fruit_LOD3|Fruit_LOD1|Fruit_LOD1|GlobularPlant_8_Sheet004|Take 001|BaseLay
+  - first:
+      74: -2079933061547887047
+    second: Fruit_LOD3|Fruit_LOD1|Fruit_LOD1|GlobularPlant_8_Sheet006|Take 001|BaseLay
+  - first:
+      74: 4592912517932863615
+    second: Fruit_LOD3|Fruit_LOD1|Fruit_LOD1|GlobularPlant_8_Sheet010|Take 001|BaseLay
+  - first:
+      74: -4776196575924773154
+    second: Fruit_LOD3|Fruit_LOD1|Fruit_LOD1|GlobularPlant_8_Sheet015|Take 001|BaseLay
+  - first:
+      74: 8471681871309565114
+    second: Fruit_LOD3|Fruit_LOD1|Fruit_LOD1|GlobularPlant_8_Sheet|Take 001|BaseLayer|
+  - first:
+      74: 8894139608672187043
+    second: Fruit_LOD3|Fruit_LOD1|Fruit_LOD1|GlobularPlant_9_Big001|Take 001|BaseLayer
+  - first:
+      74: 2470554976635486300
+    second: Fruit_LOD3|Fruit_LOD1|Fruit_LOD1|GlobularPlant_9_Big004|Take 001|BaseLayer
+  - first:
+      74: -3111752503949521778
+    second: Fruit_LOD3|Fruit_LOD1|Fruit_LOD1|GlobularPlant_9_Big008|Take 001|BaseLayer
+  - first:
+      74: -4463779466565586485
+    second: Fruit_LOD3|Fruit_LOD1|Fruit_LOD1|GlobularPlant_9_Big|Take 001|BaseLayer|Fr
+  - first:
+      74: -538804297218013180
+    second: Fruit_LOD3|Fruit_LOD1|Fruit_LOD1|GlobularPlant_9_Small|Take 001|BaseLayer|
+  - first:
+      74: -8102917880334106867
+    second: Fruit_LOD3|Fruit_LOD2|Fruit_LOD2|GlobularPlant_011|Take 001|BaseLayer|Frui
+  - first:
+      74: 7969842077538079386
+    second: Fruit_LOD3|Fruit_LOD2|Fruit_LOD2|GlobularPlant_016|Take 001|BaseLayer|Frui
+  - first:
+      74: -1196537862161222095
+    second: Fruit_LOD3|Fruit_LOD2|Fruit_LOD2|GlobularPlant_017|Take 001|BaseLayer|Frui
+  - first:
+      74: -5728669875342384876
+    second: Fruit_LOD3|Fruit_LOD2|Fruit_LOD2|GlobularPlant_018|Take 001|BaseLayer|Frui
+  - first:
+      74: -1177422036151299645
+    second: Fruit_LOD3|Fruit_LOD2|Fruit_LOD2|GlobularPlant_10|Take 001|BaseLayer|Fruit
+  - first:
+      74: -6379140134121585872
+    second: Fruit_LOD3|Fruit_LOD2|Fruit_LOD2|GlobularPlant_1_BigSphere001|Take 001|Bas
+  - first:
+      74: -7150108498003594272
+    second: Fruit_LOD3|Fruit_LOD2|Fruit_LOD2|GlobularPlant_1_BigSphere|Take 001|BaseLa
+  - first:
+      74: 4818801696521051051
+    second: Fruit_LOD3|Fruit_LOD2|Fruit_LOD2|GlobularPlant_1_SmallSphere|Take 001|Base
+  - first:
+      74: 6647453407169031789
+    second: Fruit_LOD3|Fruit_LOD2|Fruit_LOD2|GlobularPlant_3_Big001|Take 001|BaseLayer
+  - first:
+      74: -2774582357010233905
+    second: Fruit_LOD3|Fruit_LOD2|Fruit_LOD2|GlobularPlant_3_Big|Take 001|BaseLayer|Fr
+  - first:
+      74: 463017876636458569
+    second: Fruit_LOD3|Fruit_LOD2|Fruit_LOD2|GlobularPlant_3_Mid006|Take 001|BaseLayer
+  - first:
+      74: -132020228220958017
+    second: Fruit_LOD3|Fruit_LOD2|Fruit_LOD2|GlobularPlant_3_Mid1|Take 001|BaseLayer|F
+  - first:
+      74: -6207477707914901957
+    second: Fruit_LOD3|Fruit_LOD2|Fruit_LOD2|GlobularPlant_3_Mid2|Take 001|BaseLayer|F
+  - first:
+      74: -694501083719641497
+    second: Fruit_LOD3|Fruit_LOD2|Fruit_LOD2|GlobularPlant_3_Small|Take 001|BaseLayer|
+  - first:
+      74: -6201014398139311237
+    second: Fruit_LOD3|Fruit_LOD2|Fruit_LOD2|GlobularPlant_4|Take 001|BaseLayer|Fruit_
+  - first:
+      74: 5957048599153937240
+    second: Fruit_LOD3|Fruit_LOD2|Fruit_LOD2|GlobularPlant_5|Take 001|BaseLayer|Fruit_
+  - first:
+      74: -6836871361256051044
+    second: Fruit_LOD3|Fruit_LOD2|Fruit_LOD2|GlobularPlant_6|Take 001|BaseLayer.001|Fr
+  - first:
+      74: 7604881536541272932
+    second: Fruit_LOD3|Fruit_LOD2|Fruit_LOD2|GlobularPlant_6|Take 001|BaseLayer.002|Fr
+  - first:
+      74: 8787802468340500858
+    second: Fruit_LOD3|Fruit_LOD2|Fruit_LOD2|GlobularPlant_6|Take 001|BaseLayer.003|Fr
+  - first:
+      74: 8047768750592297772
+    second: Fruit_LOD3|Fruit_LOD2|Fruit_LOD2|GlobularPlant_6|Take 001|BaseLayer|Fruit_
+  - first:
+      74: -498090879722368026
+    second: Fruit_LOD3|Fruit_LOD2|Fruit_LOD2|GlobularPlant_7_Big001|Take 001|BaseLayer
+  - first:
+      74: -1768347879925712533
+    second: Fruit_LOD3|Fruit_LOD2|Fruit_LOD2|GlobularPlant_7_Big002|Take 001|BaseLayer
+  - first:
+      74: 8749885518572033448
+    second: Fruit_LOD3|Fruit_LOD2|Fruit_LOD2|GlobularPlant_7_Big|Take 001|BaseLayer|Fr
+  - first:
+      74: -7111577485936261631
+    second: Fruit_LOD3|Fruit_LOD2|Fruit_LOD2|GlobularPlant_7_Small|Take 001|BaseLayer|
+  - first:
+      74: 6931958491685598122
+    second: Fruit_LOD3|Fruit_LOD2|Fruit_LOD2|GlobularPlant_8_Sheet004|Take 001|BaseLay
+  - first:
+      74: -2126416837476542837
+    second: Fruit_LOD3|Fruit_LOD2|Fruit_LOD2|GlobularPlant_8_Sheet006|Take 001|BaseLay
+  - first:
+      74: -8448271087605646037
+    second: Fruit_LOD3|Fruit_LOD2|Fruit_LOD2|GlobularPlant_8_Sheet010|Take 001|BaseLay
+  - first:
+      74: 1340221313339957166
+    second: Fruit_LOD3|Fruit_LOD2|Fruit_LOD2|GlobularPlant_8_Sheet015|Take 001|BaseLay
+  - first:
+      74: -8016615872008249104
+    second: Fruit_LOD3|Fruit_LOD2|Fruit_LOD2|GlobularPlant_8_Sheet|Take 001|BaseLayer|
+  - first:
+      74: -6580339647561724554
+    second: Fruit_LOD3|Fruit_LOD2|Fruit_LOD2|GlobularPlant_9_Big001|Take 001|BaseLayer
+  - first:
+      74: 2795580488602827948
+    second: Fruit_LOD3|Fruit_LOD2|Fruit_LOD2|GlobularPlant_9_Big004|Take 001|BaseLayer
+  - first:
+      74: 2026227274149596028
+    second: Fruit_LOD3|Fruit_LOD2|Fruit_LOD2|GlobularPlant_9_Big008|Take 001|BaseLayer
+  - first:
+      74: -5111517953341650507
+    second: Fruit_LOD3|Fruit_LOD2|Fruit_LOD2|GlobularPlant_9_Big|Take 001|BaseLayer|Fr
+  - first:
+      74: -7474887886890522774
+    second: Fruit_LOD3|Fruit_LOD2|Fruit_LOD2|GlobularPlant_9_Small|Take 001|BaseLayer|
+  - first:
+      74: 4902978537868099007
+    second: Fruit_LOD3|Fruit_LOD3|Fruit_LOD3|GlobularPlant_011|Take 001|BaseLayer|Frui
+  - first:
+      74: -5328472572815943864
+    second: Fruit_LOD3|Fruit_LOD3|Fruit_LOD3|GlobularPlant_016|Take 001|BaseLayer|Frui
+  - first:
+      74: 5326910478494994532
+    second: Fruit_LOD3|Fruit_LOD3|Fruit_LOD3|GlobularPlant_017|Take 001|BaseLayer|Frui
+  - first:
+      74: -8090691839717640879
+    second: Fruit_LOD3|Fruit_LOD3|Fruit_LOD3|GlobularPlant_018|Take 001|BaseLayer|Frui
+  - first:
+      74: -8480728892013444336
+    second: Fruit_LOD3|Fruit_LOD3|Fruit_LOD3|GlobularPlant_10|Take 001|BaseLayer|Fruit
+  - first:
+      74: -4953002714290437644
+    second: Fruit_LOD3|Fruit_LOD3|Fruit_LOD3|GlobularPlant_1_BigSphere001|Take 001|Bas
+  - first:
+      74: -8471133236753072313
+    second: Fruit_LOD3|Fruit_LOD3|Fruit_LOD3|GlobularPlant_1_BigSphere|Take 001|BaseLa
+  - first:
+      74: -268856281125340372
+    second: Fruit_LOD3|Fruit_LOD3|Fruit_LOD3|GlobularPlant_1_SmallSphere|Take 001|Base
+  - first:
+      74: 3018165559143129683
+    second: Fruit_LOD3|Fruit_LOD3|Fruit_LOD3|GlobularPlant_3_Big001|Take 001|BaseLayer
+  - first:
+      74: 7470269481800686434
+    second: Fruit_LOD3|Fruit_LOD3|Fruit_LOD3|GlobularPlant_3_Big|Take 001|BaseLayer|Fr
+  - first:
+      74: 45435005061293300
+    second: Fruit_LOD3|Fruit_LOD3|Fruit_LOD3|GlobularPlant_3_Mid006|Take 001|BaseLayer
+  - first:
+      74: 5744218455886454115
+    second: Fruit_LOD3|Fruit_LOD3|Fruit_LOD3|GlobularPlant_3_Mid1|Take 001|BaseLayer|F
+  - first:
+      74: -5951329419939688045
+    second: Fruit_LOD3|Fruit_LOD3|Fruit_LOD3|GlobularPlant_3_Mid2|Take 001|BaseLayer|F
+  - first:
+      74: -6772383587638624431
+    second: Fruit_LOD3|Fruit_LOD3|Fruit_LOD3|GlobularPlant_3_Small|Take 001|BaseLayer|
+  - first:
+      74: -6841268919472576561
+    second: Fruit_LOD3|Fruit_LOD3|Fruit_LOD3|GlobularPlant_4|Take 001|BaseLayer|Fruit_
+  - first:
+      74: 3456514620941133624
+    second: Fruit_LOD3|Fruit_LOD3|Fruit_LOD3|GlobularPlant_5|Take 001|BaseLayer|Fruit_
+  - first:
+      74: -4171176550792465599
+    second: Fruit_LOD3|Fruit_LOD3|Fruit_LOD3|GlobularPlant_6|Take 001|BaseLayer.001|Fr
+  - first:
+      74: 3368808355074232160
+    second: Fruit_LOD3|Fruit_LOD3|Fruit_LOD3|GlobularPlant_6|Take 001|BaseLayer.002|Fr
+  - first:
+      74: -6632260973547508086
+    second: Fruit_LOD3|Fruit_LOD3|Fruit_LOD3|GlobularPlant_6|Take 001|BaseLayer.003|Fr
+  - first:
+      74: 2429890189923049635
+    second: Fruit_LOD3|Fruit_LOD3|Fruit_LOD3|GlobularPlant_6|Take 001|BaseLayer|Fruit_
+  - first:
+      74: -8428959854448879445
+    second: Fruit_LOD3|Fruit_LOD3|Fruit_LOD3|GlobularPlant_7_Big001|Take 001|BaseLayer
+  - first:
+      74: -4992677765993919551
+    second: Fruit_LOD3|Fruit_LOD3|Fruit_LOD3|GlobularPlant_7_Big002|Take 001|BaseLayer
+  - first:
+      74: 1011733663450186641
+    second: Fruit_LOD3|Fruit_LOD3|Fruit_LOD3|GlobularPlant_7_Big|Take 001|BaseLayer|Fr
+  - first:
+      74: 4304000273127678874
+    second: Fruit_LOD3|Fruit_LOD3|Fruit_LOD3|GlobularPlant_7_Small|Take 001|BaseLayer|
+  - first:
+      74: -2664089760781779783
+    second: Fruit_LOD3|Fruit_LOD3|Fruit_LOD3|GlobularPlant_8_Sheet004|Take 001|BaseLay
+  - first:
+      74: 5812619591764480853
+    second: Fruit_LOD3|Fruit_LOD3|Fruit_LOD3|GlobularPlant_8_Sheet006|Take 001|BaseLay
+  - first:
+      74: 3154351609871637924
+    second: Fruit_LOD3|Fruit_LOD3|Fruit_LOD3|GlobularPlant_8_Sheet010|Take 001|BaseLay
+  - first:
+      74: 3596955173627697449
+    second: Fruit_LOD3|Fruit_LOD3|Fruit_LOD3|GlobularPlant_8_Sheet015|Take 001|BaseLay
+  - first:
+      74: -7327881350950106327
+    second: Fruit_LOD3|Fruit_LOD3|Fruit_LOD3|GlobularPlant_8_Sheet|Take 001|BaseLayer|
+  - first:
+      74: -3876592097319543874
+    second: Fruit_LOD3|Fruit_LOD3|Fruit_LOD3|GlobularPlant_9_Big001|Take 001|BaseLayer
+  - first:
+      74: -8685845837672056554
+    second: Fruit_LOD3|Fruit_LOD3|Fruit_LOD3|GlobularPlant_9_Big004|Take 001|BaseLayer
+  - first:
+      74: 4538882919429610139
+    second: Fruit_LOD3|Fruit_LOD3|Fruit_LOD3|GlobularPlant_9_Big008|Take 001|BaseLayer
+  - first:
+      74: 2095929097862391261
+    second: Fruit_LOD3|Fruit_LOD3|Fruit_LOD3|GlobularPlant_9_Big|Take 001|BaseLayer|Fr
+  - first:
+      74: 4248083182529247051
+    second: Fruit_LOD3|Fruit_LOD3|Fruit_LOD3|GlobularPlant_9_Small|Take 001|BaseLayer|
+  externalObjects: {}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages:
+    - 0.25
+    - 0.125
+    - 0.0625
+    - 0.01
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

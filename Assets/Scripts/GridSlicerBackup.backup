@@ -1,0 +1,140 @@
+using BzKovSoft.ObjectSlicer;
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class GridSlicer
+{
+	public void KillMeshColliders(GameObject go, bool makeBoxCollider)
+	{
+		MeshCollider[] bc = go.GetComponents<MeshCollider>();
+		for (int i = 0; i < bc.Length; ++i) GameObject.Destroy(bc[i]);
+		if(makeBoxCollider) go.AddComponent(typeof(BoxCollider));
+	}
+	public IEnumerator Slice(GameObject originalSource, Vector3 sliceDims, string masterName, string baseName)
+	{
+		GameObject keepNeg = null;
+		GameObject keepPos = null;
+		GameObject sliceMe = null;
+
+		void OnSlice(BzSliceTryResult result)
+		{
+			keepNeg = result.outObjectNeg;
+			keepPos = result.outObjectPos;
+			if(result.outObjectPos!=null)
+				sliceMe = result.outObjectPos;
+		}
+		void SliceOne(GameObject source, Vector3 normal, Vector3 pos)
+		{
+			Plane plane = new Plane(normal, pos);
+			var singleSlicer = source.transform.GetComponent<SingleSlicer>();
+			singleSlicer.Slice(plane, OnSlice);
+		}
+		void AddOne(List<GameObject> list, GameObject addMe, float x=-999, float y=-999, float z=-999, int xGrid =-999, int yGrid = -999, int zGrid =-999, bool makeBoxCollider=true)
+		{
+			if (addMe == null)
+			{
+				return;
+			}
+			
+			list.Add(addMe);
+			KillMeshColliders(addMe, makeBoxCollider);
+			GridSlice gridSlice = addMe.GetComponent<GridSlice>();
+			if (x != -999)
+			{
+				gridSlice.gridPos.x = xGrid;
+				gridSlice.center.x = x;
+			}
+			if (y != -999)
+			{
+				gridSlice.gridPos.y = yGrid;
+				gridSlice.center.y = y;
+			}
+			if (z != -999)
+			{
+				gridSlice.gridPos.z = zGrid;
+				gridSlice.center.z = z;
+			}
+		}
+
+		GameObject resultObject = new GameObject(masterName);
+		GridSliceMaster resultGrid = (GridSliceMaster)resultObject.AddComponent(typeof(GridSliceMaster));
+
+		if (originalSource.GetComponent<GridSlice>() == null)
+		{
+			originalSource.AddComponent(typeof(GridSlice));
+		}
+		Renderer renderer = originalSource.GetComponent<Renderer>();
+		Vector3 extents = renderer.bounds.extents;
+		Vector3 center = renderer.bounds.center;
+
+		KillMeshColliders(originalSource, true);
+
+		// CUT ACROSS X
+		List <GameObject> xList = new List<GameObject>();
+		sliceMe = originalSource;
+
+		float x;
+		int xGrid = 0;
+		for (x = -extents.x + sliceDims.x; x <= extents.x; x += sliceDims.x, xGrid+=1)
+		{
+			SliceOne(sliceMe, new Vector3(1, 0, 0), new Vector3(center.x + x, center.y, center.z));
+			AddOne(xList, keepNeg, x: center.x + x - sliceDims.x / 2.0f, xGrid: xGrid);
+			//yield return null;
+		}
+		AddOne(xList, keepPos != null ? keepPos : sliceMe, x: center.x + x - sliceDims.x / 2.0f, xGrid: xGrid);
+
+		// CUT ACROSS Y
+		List<GameObject> yList = new List<GameObject>();
+		foreach (var source in xList)
+		{
+			sliceMe = source;
+			Debug.Assert(source != null);
+			float y;
+			int yGrid = 0;
+			for (y = -extents.y + sliceDims.y; y <= extents.y; y += sliceDims.y, yGrid+=1)
+			{
+				SliceOne(sliceMe, new Vector3(0, 1, 0), new Vector3(center.x, center.y + y, center.z));
+				AddOne(yList, keepNeg, y: center.y + y - sliceDims.y / 2.0f, yGrid: yGrid);
+				//yield return null;
+			}
+			AddOne(yList, keepPos != null ? keepPos : sliceMe, y: center.y + y - sliceDims.y / 2.0f, yGrid: yGrid);
+		}
+
+		// CUT ACROSS Z
+		List<GameObject> zList = new List<GameObject>();
+		foreach (var source in yList)
+		{
+			sliceMe = source;
+			Debug.Assert(source != null);
+			float z;
+			int zGrid = 0;
+			for (z = -extents.z + sliceDims.z; z <= extents.z; z += sliceDims.z, zGrid+=1)
+			{
+				SliceOne(sliceMe, new Vector3(0, 0, 1), new Vector3(center.x, center.y, center.z + z));
+				AddOne(zList, keepNeg, z: center.z + z - sliceDims.z / 2.0f, zGrid: zGrid, makeBoxCollider: false);
+				//yield return null;
+			}
+			AddOne(zList, keepPos != null ? keepPos : sliceMe, z: center.z + z - sliceDims.z / 2.0f, zGrid: zGrid, makeBoxCollider: false);
+		}
+
+		// FINALIZE LIST
+		foreach (var go in zList)
+		{
+			GridSlice gridSlice = go.GetComponent<GridSlice>();
+			go.name = baseName + gridSlice.gridPos.x + "" + gridSlice.gridPos.y + "" + gridSlice.gridPos.z;
+
+			resultGrid.grid[gridSlice.gridPos.x, gridSlice.gridPos.y, gridSlice.gridPos.z] = go;
+
+			MeshCollider[] mc = go.GetComponents<MeshCollider>();
+			for (int i = 0; i < mc.Length; ++i) GameObject.Destroy(mc[i]);
+			
+			BoxCollider[] bc = go.GetComponents<BoxCollider>();
+			for (int i = 0; i < bc.Length; ++i) GameObject.Destroy(bc[i]);
+			//float d = 7.0f;
+			//go.transform.position = new Vector3(go.transform.position.x + s.gridPos.x * d, go.transform.position.y + s.gridPos.y * d, go.transform.position.z + s.gridPos.z * d);
+			go.transform.parent = resultObject.transform;
+		}
+
+	}
+}
