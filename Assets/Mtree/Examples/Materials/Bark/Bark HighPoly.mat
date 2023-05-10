@@ -9,7 +9,7 @@ Material:
   m_PrefabAsset: {fileID: 0}
   m_Name: Bark HighPoly
   m_Shader: {fileID: 4800000, guid: 54e868cc3a25a4a46a5331e0d7853e67, type: 3}
-  m_ShaderKeywords: _GLOSSYREFLECTIONS_OFF
+  m_ShaderKeywords: 
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -94,7 +94,7 @@ Material:
     - _Glossiness: 0.211
     - _GlossinessThreshold: 0
     - _GlossinessVariance: 0.5
-    - _GlossyReflections: 0
+    - _GlossyReflections: 1
     - _Height: 0
     - _Hue: -0.103
     - _LocalWindStrength: 0
@@ -156,4 +156,3 @@ Material:
     - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
     - _SSSColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
     - _TranslucencyColor: {r: 0.88357, g: 1, b: 0.6985294, a: 1}
-  m_BuildTextureStacks: []

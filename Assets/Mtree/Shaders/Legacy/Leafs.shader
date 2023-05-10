@@ -330,7 +330,6 @@ Shader "Mtree/Leafs"
 			#endif
 			float OUT_Alpha46 = staticSwitch40_g487;
 			o.Alpha = OUT_Alpha46;
-			// Test
 		}
 
 		ENDCG

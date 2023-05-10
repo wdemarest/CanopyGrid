@@ -76,5 +76,5 @@ crashlytics-build.properties
 /ArtSource/*
 /OVRAssetBundles/*
 *.exe
-*.dll
 /MonoBleedingEdge/*
+/Assets/Mtree/*
