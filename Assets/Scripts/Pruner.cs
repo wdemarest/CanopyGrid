@@ -5,12 +5,15 @@ using UnityEngine.Rendering;
 using UnityEditor;
 using MantisLODScriptable;
 
-
+//
+// I can't remember what this was for, but we don't seem to use it anymore anyway.
+//
+//
 public class Pruner : MonoBehaviour, IBuildNode
 {
 	public int submeshToExclude = 1;
 	public bool buildCollider = false;
-
+/*
 	// WARNING: If you attempt cross fade, you MUST hand-edit the shaders so that the #pragma surface ends with #pragma surface ends with dithercrossfade
 	void SaveOne(Mesh mesh, string dirName, string meshName)
 	{
@@ -23,24 +26,6 @@ public class Pruner : MonoBehaviour, IBuildNode
 		AssetDatabase.CreateAsset(mesh, fileName);
 		AssetDatabase.SaveAssets();
 	}
-    /*
-	void SaveAll(GameObject go)
-	{
-		int count = 0;
-		Util.TraverseChildren(go, true, (GameObject child) =>
-		{
-			MeshFilter meshFilter = child.GetComponent<MeshFilter>();
-			if (meshFilter != null)
-			{
-				string meshName = go.name + "_" + child.transform.parent.gameObject.name + "_" + child.name;
-				SaveOne(meshFilter.sharedMesh, go.name, meshName);
-				++count;
-			}
-		});
-		Debug.Log("Saved " + count + " meshes.");
-		AssetDatabase.Refresh();
-	}
-	*/
     Mesh CopyMeshAndPrune(Mesh sourceMesh, int submeshToExclude)
 	{
 		Mesh mesh = new Mesh();
@@ -140,6 +125,10 @@ public class Pruner : MonoBehaviour, IBuildNode
 			Build();
 		}
 	}
+*/
+	public void Build()
+	{}
+
 }
 
 

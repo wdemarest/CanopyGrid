@@ -20,21 +20,37 @@ public class GridSliceMaster : MonoBehaviour
 	public GameObject[,,] grid = null;
 }
 
+[Serializable]
+public class LodParams
+{
+	public bool protect_boundary = true;
+	public bool protect_detail = false;
+	public bool protect_symmetry = false;
+	public bool protect_normal = false;
+	public bool protect_shape = true;
+	public bool use_detail_map = false;
+	public int detail_boost = 10;
+}
+
 public class Dicer : MonoBehaviour, IBuildNode
 {
 	public Material capMaterial;
 	public float sliceDim = 43.0f;
-	public int lodCount = 99;
+
+	[Header("Distances 99-0 at Which LODs Draw")]
+	public float[] cutoffArray = new float[] { 30f, 20f, 15f, 10f, 5f, 2.5f, 1f };
+	[Header("Percent 100-0 of Tris in Each LOD")]
+	public int[] lodQuality = new int[] { 100, 80, 60, 40, 20, 10, 5 };
+
+	[Header("How to Generate LODs")]
+	public LodParams lodParams = new LodParams();
+	
 	public LODFadeMode fadeMode;
 	public bool createCap = false;
-	public float topLodIsXPercent = 0.773f;
-	public bool protectHardEdges = true;
-	public bool protectShape = true;
-	public float bias0 = 0.85f;
-	public float bias1to6 = 0.85f;
 	public bool createDebugObjects = false;
 	public bool justOneCut = false;
 	public bool buildMe = false;
+	public int lodCount { get { return Mathf.Min(lodQuality.Length, cutoffArray.Length); } }
 
 	// WARNING: If you attempt cross fade, you MUST hand-edit the shaders so that the #pragma surface ends with dithercrossfade
 	void SaveOne(Mesh mesh, string dirName, string meshName)
@@ -102,6 +118,11 @@ public class Dicer : MonoBehaviour, IBuildNode
 
         Renderer[] renderers = new Renderer[1];
 		renderers[0] = cur.GetComponent<Renderer>();
+		if (renderers[0] == null)
+		{
+			Debug.LogError("Object " + cur.name + " must have a valid renderer.");
+			return;
+		}
 		newLods[lodIndex] = new LOD(distancePercent, renderers);
 		//Debug.Log("lodIndex=" + lodIndex + ", distancePercent=" + distancePercent);
 
@@ -111,36 +132,56 @@ public class Dicer : MonoBehaviour, IBuildNode
 		// SetLODs: Attempting to set LOD where the screen relative size is greater then or equal to a higher detail LOD level.
 		// but that statement is absolutely false. Who know why.
 
-		bool stopMe = false;
-        float tinyGap = 0.01f;
-        string lodString = "LODs=";
-		for (int i = 0; i < newLods.Length-1; ++i)
-		{
-			if (newLods[i].screenRelativeTransitionHeight == 0)
-			{
-				stopMe = true;
+		bool useNewWay = true;
 
-                float priorSRHT = i ==0 ? 0.1f : newLods[i - 1].screenRelativeTransitionHeight;
-				float newSRHT = priorSRHT - tinyGap;
-                newLods[i] = new LOD(newSRHT, renderers);
-                //Debug.LogWarning("PriorSRHT=" + priorSRHT+", newSRHT="+newSRHT+ ", newLods["+i+"]="+ newLods[i].screenRelativeTransitionHeight);
-            }
-            lodString += "("+i+"="+newLods[i].screenRelativeTransitionHeight + "),";
-        }
-        //Debug.LogWarning(lodString);
-		//LogGaps();
-
-		try
+		if(useNewWay)
 		{
-			if( stopMe)
+			for (int i = 1; i < newLods.Length - 1; ++i)
 			{
-				Debug.LogWarning("Stopping");
+				if (newLods[i].screenRelativeTransitionHeight == 0)
+				{
+					LOD prior = newLods[i - 1];
+					float tinyGap = 0.00001f;
+					newLods[i] = new LOD(prior.screenRelativeTransitionHeight - tinyGap, prior.renderers);
+				}
 			}
 			group.SetLODs(newLods);
+			group.RecalculateBounds();
 		}
-		catch
+		else
 		{
-			Debug.LogError("Unacceptable LODs");
+			bool stopMe = false;
+			float tinyGap = 0.01f;
+			string lodString = "LODs=";
+			for (int i = 0; i < newLods.Length-1; ++i)
+			{
+				if (newLods[i].screenRelativeTransitionHeight == 0)
+				{
+					stopMe = true;
+
+					float priorSRHT = i ==0 ? 0.1f : newLods[i - 1].screenRelativeTransitionHeight;
+					float newSRHT = priorSRHT - tinyGap;
+					newLods[i] = new LOD(newSRHT, renderers);
+					//Debug.LogWarning("PriorSRHT=" + priorSRHT+", newSRHT="+newSRHT+ ", newLods["+i+"]="+ newLods[i].screenRelativeTransitionHeight);
+				}
+				lodString += "("+i+"="+newLods[i].screenRelativeTransitionHeight + "),";
+			}
+			//Debug.LogWarning(lodString);
+			//LogGaps();
+
+			try
+			{
+				if( stopMe)
+				{
+					Debug.LogWarning("Stopping");
+				}
+				group.SetLODs(newLods);
+				group.RecalculateBounds();
+			}
+			catch
+			{
+				Debug.LogError("Unacceptable LODs");
+			}
 		}
 	}
 	Mesh CopyMesh(Mesh sourceMesh)
@@ -154,11 +195,9 @@ public class Dicer : MonoBehaviour, IBuildNode
 		mesh.tangents = sourceMesh.tangents;
 		return mesh;
 	}
-	public IEnumerator Dice(int lodCount, Vector3 sliceDims, float bias0, float bias1to6, bool justOneCut, bool createDebugObjects)
+	public IEnumerator Dice(Vector3 sliceDims, bool justOneCut, bool createDebugObjects)
 	{
-		int[] lodQuality = new int[] { 100, 80, 60, 40, 20, 10, 5 };
 		string name = "Grid" + gameObject.name;
-		lodCount = Mathf.Clamp(lodCount, 1, lodQuality.Length);
 
 		// We need to operate from (0,0,0) or the individual LODs aren't positioned correctly.
 		GameObject source = Instantiate(gameObject, Vector3.zero, Quaternion.identity);
@@ -167,9 +206,8 @@ public class Dicer : MonoBehaviour, IBuildNode
 		GameObject result = new GameObject(name);
 		result.transform.localScale = Vector3.one;
 		GridGroup gridGroup = result.AddComponent<GridGroup>() as GridGroup;
+		gridGroup.cutoffArray = cutoffArray;
 		gridGroup.sliceDims = sliceDims;
-		gridGroup.bias0 = bias0;
-		gridGroup.bias1to6 = bias1to6;
 
 		// WARNING: You must parent this first, and THEN set localScale to one.
 		GameObject parts = new GameObject("Parts");
@@ -186,10 +224,16 @@ public class Dicer : MonoBehaviour, IBuildNode
 
 			// CHANGE TO APPROPRIATE LOD
 			mantis[lodIndex] = new MantisScripter(source,target);
-			var param = new MantisParams() {
-				protect_normal = protectHardEdges,
-				protect_shape = protectShape,
-				quality = lodQuality[lodIndex] * Mathf.Clamp(topLodIsXPercent,0,1)
+			var param = new MantisParams()
+			{
+				quality = lodQuality[lodIndex],
+				protect_boundary = lodParams.protect_boundary,
+				protect_detail = lodParams.protect_detail,
+				protect_symmetry = lodParams.protect_symmetry,
+				protect_normal = lodParams.protect_normal,
+				protect_shape = lodParams.protect_shape,
+				use_detail_map = lodParams.use_detail_map,
+				detail_boost = lodParams.detail_boost
 			};
 			mantis[lodIndex].Reduce(param);
 
@@ -235,9 +279,8 @@ public class Dicer : MonoBehaviour, IBuildNode
 						}
 						cur.transform.parent = part[x, y, z].transform;
 						cur.name = "L" + lodIndex;
-						float tempQuality = ((float)lodQuality[lodIndex]) / 100.0f;
 						//Debug.LogWarning("AddLod cur=" + cur.name + ", lodIndex=" + lodIndex + ", tempQuality=" + tempQuality);
-						AddLod(part[x, y, z], cur, lodIndex, tempQuality);
+						AddLod(part[x, y, z], cur, lodIndex, cutoffArray[lodIndex] / 100.0f);
 
 						GameObject.Destroy(cur.GetComponent<BoxCollider>());
 						GameObject.Destroy(cur.GetComponent<BzSliceConfiguration>());
@@ -254,7 +297,7 @@ public class Dicer : MonoBehaviour, IBuildNode
 		source.TraverseChildren<GridGroup>(true,(GridGroup gridGroup) =>
 		{
 			gridGroup.ForceUniformSizing();
-			gridGroup.AdjustBias(source.name);
+			gridGroup.AdjustCutoffs(source.name);
 		});
 		for (int lodIndex = 0; lodIndex < lodCount; ++lodIndex)
 		{
@@ -299,7 +342,7 @@ public class Dicer : MonoBehaviour, IBuildNode
 		Vector3 scale = gameObject.transform.localScale;
 		Vector3 sliceDims = new Vector3(sliceDim / scale.x, sliceDim / scale.y, sliceDim / scale.z);
 
-		StartCoroutine(Dice(lodCount, sliceDims, bias0, bias1to6, justOneCut, createDebugObjects));
+		StartCoroutine(Dice(sliceDims, justOneCut, createDebugObjects));
 	}
 	void Start()
 	{
